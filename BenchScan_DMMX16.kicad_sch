@@ -1,0 +1,244 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "62737c8f-9d23-4ee8-846c-0b7150f9fa9f")
+	(paper "A3")
+	(title_block
+		(title "BenchScan DMMX16 - Hierarchical Schematic")
+		(date "2026-09-23")
+		(rev "DRAFT-1")
+		(company "BenchScan DMMX16")
+		(comment 1 "Engineering draft - verify ERC, footprints and safety ratings")
+	)
+	(lib_symbols)
+	(text "12 multipurpose + 4 fused current channels; SC1016-inspired 4-wire pairing"
+		(exclude_from_sim no)
+		(at 22.86 26.67 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+				(thickness 0.3302)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d5b45c2-1ed9-4b8b-9e62-c9b5f60e89a5")
+	)
+	(text "USB powers U1. Barrel input powers +5V_RELAY only; no USB/external-5V backfeed path is fitted."
+		(exclude_from_sim no)
+		(at 22.86 198.12 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "64665cc0-f865-4d7c-8554-938b5d82ab35")
+	)
+	(text "BENCHSCAN DMMX16 - 16 CHANNEL SCANNER / 17 RELAYS"
+		(exclude_from_sim no)
+		(at 22.86 20.32 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.5588)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2f7f04d-212f-4a80-8a8f-4332a32eb2bd")
+	)
+	(sheet
+		(at 30.48 43.18)
+		(size 88.9 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-000071000001")
+		(property "Sheetname" "01 Power and digital control"
+			(at 30.48 42.3414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power_control.kicad_sch"
+			(at 30.48 81.9662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BenchScan_DMMX16"
+				(path "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 43.18)
+		(size 88.9 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-000071000002")
+		(property "Sheetname" "02 Relay coil drivers"
+			(at 152.4 42.3414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_relay_drivers.kicad_sch"
+			(at 152.4 81.9662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BenchScan_DMMX16"
+				(path "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 119.38)
+		(size 88.9 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-000071000003")
+		(property "Sheetname" "03 Voltage and sense channels"
+			(at 30.48 118.5414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_voltage_channels.kicad_sch"
+			(at 30.48 158.1662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BenchScan_DMMX16"
+				(path "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 119.38)
+		(size 88.9 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-000071000004")
+		(property "Sheetname" "04 Current and DMM interface"
+			(at 152.4 118.5414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_current_dmm_interface.kicad_sch"
+			(at 152.4 158.1662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BenchScan_DMMX16"
+				(path "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
