@@ -8,8 +8,8 @@ BenchScan DMMX16 is a digital multimeter switching card inspired by the function
 - File format: **KiCad 10**
 - Hierarchical schematic converted and saved
 - ERC: **0 errors and 18 off-grid warnings** from the custom MOSFET symbols
-- PCB: preliminary **220 × 110 mm**, four-layer outline
-- Component placement, routing, and manufacturing files: not started
+- PCB: **220 × 110 mm**, four copper layers, with all 113 footprints placed on the top side
+- Preliminary placement completed; routing and manufacturing files have not started
 
 This project is not ready for manufacturing.
 
@@ -43,7 +43,7 @@ Each relay is driven by a 2N7002K MOSFET with a 100 ohm series gate resistor, a 
 | J3 | CH9-CH12 | Multipurpose measurement and associated SENSE channels |
 | J4 | CH13-CH16 | Current measurement, provisional 500 mA maximum |
 
-Each channel uses four terminals arranged as `HI, HI, LO, LO`. The duplicated terminals of each channel are connected in parallel.
+Each J1-J4 connector has eight positions at 5.00 mm pitch: one `HI` and one `LO` terminal for each of its four channels.
 
 ### Switching
 
@@ -95,15 +95,18 @@ Supporting documents:
 - `SWITCHING_TRUTH_TABLE.md`: switching truth table
 - `PLACEMENT_CONSTRAINTS.md`: mechanical and placement constraints
 - `SC1016_REFERENCE.md`: SC1016 reference specifications
-- `erc-draft1.json`: latest automated ERC report
+- `erc-placement.json`: latest automated ERC report
+- `drc-placement.json`: preliminary placement DRC report (routing intentionally incomplete)
+- `LIBRARY_SOURCES.md`: footprint provenance and manufacturer references
 
-## Required before PCB placement
+## Required before routing
 
 1. Align the custom MOSFET symbol pins to eliminate the 18 ERC off-grid warnings.
-2. Verify or create manufacturer-specific footprints for the XIAO, UD2-5NE relays, 1190370 connectors, J5, J7, and Pomona 73099 banana jacks.
-3. Verify the gate, source, and drain pin mapping of Q1-Q19 against the selected SOT-23 footprints.
-4. Confirm voltage limits, creepage and clearance requirements, and PCB trace-width rules.
-5. Complete a manual schematic review before transferring footprints to the PCB.
+2. Verify the gate, source, and drain pin mapping of Q1-Q19 against the selected SOT-23 footprint.
+3. Mechanically verify the four project-created footprints against physical samples or manufacturer drawings before ordering boards.
+4. Confirm voltage limits, creepage and clearance requirements, trace-width rules, and internal plane strategy.
+5. Review and refine the preliminary placement, especially edge access and measurement-signal return paths.
+6. Complete a manual schematic and PCB review before routing and manufacturing-output generation.
 
 ## Warning
 
