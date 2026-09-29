@@ -3872,7 +3872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Tensility_54-00129_DCJack"
 			(at 43.18 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -3883,7 +3883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/54-00129.pdf"
 			(at 43.18 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -3894,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tensility 54-00129 right-angle 5.5/2.1 mm 6 A DC jack"
 			(at 43.18 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)

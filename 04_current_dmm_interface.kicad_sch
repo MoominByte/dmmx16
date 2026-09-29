@@ -2854,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Fuse_Littelfuse_0451_NANO2_2410"
 			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
@@ -2865,7 +2865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
 			(at 91.44 127 0)
 			(hide yes)
 			(show_name no)
@@ -2876,7 +2876,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Littelfuse 0451.500MRL 500 mA very-fast-acting NANO2 SMD fuse"
 			(at 91.44 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2932,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Fuse_Littelfuse_0451_NANO2_2410"
 			(at 91.44 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2943,7 +2943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
 			(at 91.44 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2954,7 +2954,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Littelfuse 0451.500MRL 500 mA very-fast-acting NANO2 SMD fuse"
 			(at 91.44 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3010,7 +3010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Fuse_Littelfuse_0451_NANO2_2410"
 			(at 91.44 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -3021,7 +3021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
 			(at 91.44 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -3032,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Littelfuse 0451.500MRL 500 mA very-fast-acting NANO2 SMD fuse"
 			(at 91.44 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,7 +3088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Fuse_Littelfuse_0451_NANO2_2410"
 			(at 91.44 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -3099,7 +3099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
 			(at 91.44 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -3110,7 +3110,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Littelfuse 0451.500MRL 500 mA very-fast-acting NANO2 SMD fuse"
 			(at 91.44 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3166,7 +3166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Relay_KEMET_UD2_NE"
 			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
@@ -3177,7 +3177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7005_UC2_UD2.pdf"
 			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
@@ -3188,7 +3188,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KEMET/YAGEO UD2-5NE low-power non-latching DPDT SMD signal relay"
 			(at 147.32 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3262,7 +3262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Relay_KEMET_UD2_NE"
 			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +3273,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7005_UC2_UD2.pdf"
 			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KEMET/YAGEO UD2-5NE low-power non-latching DPDT SMD signal relay"
 			(at 147.32 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Relay_KEMET_UD2_NE"
 			(at 147.32 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -3369,7 +3369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7005_UC2_UD2.pdf"
 			(at 147.32 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -3380,7 +3380,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KEMET/YAGEO UD2-5NE low-power non-latching DPDT SMD signal relay"
 			(at 147.32 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3454,7 +3454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Relay_KEMET_UD2_NE"
 			(at 147.32 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -3465,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7005_UC2_UD2.pdf"
 			(at 147.32 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -3476,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KEMET/YAGEO UD2-5NE low-power non-latching DPDT SMD signal relay"
 			(at 147.32 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,7 +3640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Pomona_73099_RightAngle_SafetyJack"
 			(at 220.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3651,7 +3651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d73099_101.pdf"
 			(at 220.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3662,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pomona 73099 right-angle 4 mm PCB safety jack"
 			(at 220.98 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Pomona_73099_RightAngle_SafetyJack"
 			(at 276.86 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3726,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d73099_101.pdf"
 			(at 276.86 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3737,7 +3737,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pomona 73099 right-angle 4 mm PCB safety jack"
 			(at 276.86 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Pomona_73099_RightAngle_SafetyJack"
 			(at 332.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3801,7 +3801,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d73099_101.pdf"
 			(at 332.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3812,7 +3812,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pomona 73099 right-angle 4 mm PCB safety jack"
 			(at 332.74 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Pomona_73099_RightAngle_SafetyJack"
 			(at 220.98 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3876,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d73099_101.pdf"
 			(at 220.98 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3887,7 +3887,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pomona 73099 right-angle 4 mm PCB safety jack"
 			(at 220.98 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +3940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Pomona_73099_RightAngle_SafetyJack"
 			(at 276.86 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3951,7 +3951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d73099_101.pdf"
 			(at 276.86 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3962,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pomona 73099 right-angle 4 mm PCB safety jack"
 			(at 276.86 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BenchScan_Custom:Pomona_73099_RightAngle_SafetyJack"
 			(at 332.74 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4026,7 +4026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d73099_101.pdf"
 			(at 332.74 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4037,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pomona 73099 right-angle 4 mm PCB safety jack"
 			(at 332.74 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
