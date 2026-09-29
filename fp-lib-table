@@ -3,4 +3,5 @@
   (lib (name "BenchScan_Connectors")(type "KiCad")(uri "${KIPRJMOD}/BenchScan_Connectors.pretty")(options "")(descr "BenchScan project connector footprints"))
   (lib (name "Seeed_XIAO")(type "KiCad")(uri "${KIPRJMOD}/Seeed_XIAO.pretty")(options "")(descr "Official Seeed Studio XIAO footprints"))
   (lib (name "Wurth_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Wurth_Connectors.pretty")(options "")(descr "Official Wurth Elektronik connector footprints"))
+  (lib (name "BenchScan_Custom")(type "KiCad")(uri "${KIPRJMOD}/BenchScan_Custom.pretty")(options "")(descr "BenchScan manufacturer-specific footprints"))
 )
