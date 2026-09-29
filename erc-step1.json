@@ -1,0 +1,327 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-28T20:20:13",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f",
+            "violations": [
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q19 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 1.62052
+                            },
+                            "uuid": "66347693-0423-4fc7-b684-fdd448fb94bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.27432
+                            },
+                            "uuid": "f678750e-75f2-4674-8d34-fea389791a6b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.54102
+                            },
+                            "uuid": "5bd48cb3-c3ec-438b-9ee5-278be1e7a9eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q3 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.80772
+                            },
+                            "uuid": "7ac55caf-3259-4780-8174-b5ee1c2b58ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q4 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 1.07442
+                            },
+                            "uuid": "fe026fd1-0438-4b06-bdc3-571261655856"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 1.34112
+                            },
+                            "uuid": "77d3deb5-39ec-4d8e-81fc-67d146bd35e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 2 [S, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 1.64338
+                            },
+                            "uuid": "e4b2d851-44ef-40ed-85ef-ab858145baab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q7 Pin 2 [S, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 1.91008
+                            },
+                            "uuid": "fca40afa-b2ee-45a7-8fc1-72560a1faf6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q8 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 2.14122
+                            },
+                            "uuid": "14819f4d-2e93-4fab-bde5-debf1f8ea570"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q9 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 2.40792
+                            },
+                            "uuid": "2d500065-7ded-427f-8e98-13c4ba71ae93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q10 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 0.27432
+                            },
+                            "uuid": "a1440a92-620f-4008-9c32-6c22082bbd76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q11 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 0.54102
+                            },
+                            "uuid": "97bfd64a-ee93-4c33-9479-da2b85903271"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q12 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 0.80772
+                            },
+                            "uuid": "ae189e7d-b9ec-40f8-933e-e9ed665ef15d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q13 Pin 3 [D, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 1.07442
+                            },
+                            "uuid": "1769d359-c580-4edd-a431-993a08dbd05f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q14 Pin 2 [S, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 1.37668
+                            },
+                            "uuid": "c5ceea52-e955-422a-b375-a5609522a5cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q15 Pin 2 [S, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 1.64338
+                            },
+                            "uuid": "32af263d-562b-4289-8517-4ae4b79051b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q16 Pin 2 [S, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 1.91008
+                            },
+                            "uuid": "8d935b32-d45e-4757-8807-746fccf82f84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q17 Pin 2 [S, Passive, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 2.17678
+                            },
+                            "uuid": "3a463825-0de3-459b-9080-e0fabe047df2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                }
+            ]
+        },
+        {
+            "path": "/01 Power and digital control/",
+            "uuid_path": "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f/00000000-0000-0000-0000-000071000001",
+            "violations": []
+        },
+        {
+            "path": "/03 Voltage and sense channels/",
+            "uuid_path": "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f/00000000-0000-0000-0000-000071000003",
+            "violations": []
+        },
+        {
+            "path": "/02 Relay coil drivers/",
+            "uuid_path": "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f/00000000-0000-0000-0000-000071000002",
+            "violations": []
+        },
+        {
+            "path": "/04 Current and DMM interface/",
+            "uuid_path": "/62737c8f-9d23-4ee8-846c-0b7150f9fa9f/00000000-0000-0000-0000-000071000004",
+            "violations": []
+        }
+    ],
+    "source": "BenchScan_DMMX16.kicad_sch"
+}

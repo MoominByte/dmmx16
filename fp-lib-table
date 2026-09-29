@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BenchScan_Connectors")(type "KiCad")(uri "${KIPRJMOD}/BenchScan_Connectors.pretty")(options "")(descr "BenchScan project connector footprints"))
+)
