@@ -3550,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wurth_Connectors:J_Wurth_WR-TBL_691137710006"
 			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3561,7 +3561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691137710006.pdf"
 			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3572,7 +3572,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wurth Elektronik WR-TBL 6-position horizontal terminal block, 5.00 mm pitch"
 			(at 193.04 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)

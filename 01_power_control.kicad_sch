@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Seeed_XIAO:XIAO-ESP32-C6-SMD"
 			(at 63.5 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3295,7 +3295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/"
 			(at 63.5 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3306,7 +3306,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Seeed Studio XIAO ESP32-C6 module, castellated SMD mounting"
 			(at 63.5 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
