@@ -73,10 +73,13 @@
 			(outputdirectory "")
 		)
 	)
+	(property "PROJECT" "BenchScan DMMX16")
+	(property "REVISION" "DRAFT-1")
+	(property "STATUS" "CONNECTED SCHEMATIC REVIEW")
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "001198c3-caac-4911-bd05-2440a670a81a")
-		(at 19.5 48)
+		(at 59.5 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q10"
@@ -442,7 +445,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "0800aa9a-473c-4397-8919-8308526983e7")
-		(at 73 72)
+		(at 113 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K6"
@@ -607,7 +610,7 @@
 	(footprint "Phoenix_1190370_LPTA-2.5-8-5.0"
 		(layer "F.Cu")
 		(uuid "09031290-4bfe-4469-9b1b-b8d49ed356da")
-		(at 8 89)
+		(at 48 121)
 		(descr "Phoenix Contact 1190370, LPTA 2,5/8-5,0, 8 positions, 5.00 mm pitch, single row, THT; body 41.5 x 21.35 mm")
 		(tags "Phoenix Contact 1190370 LPTA terminal block 5.00mm")
 		(property "Reference" "J1"
@@ -828,7 +831,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "09f9b7d4-96ff-4277-b66c-c38622085fb6")
-		(at 134.5 31)
+		(at 174.5 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D9"
@@ -1104,7 +1107,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "0b8ed202-fec6-4cab-a534-eb50659c02e9")
-		(at 42.5 48)
+		(at 82.5 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q12"
@@ -1470,7 +1473,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "0bb6f11a-fbc7-4e17-afe1-a28f1741abc8")
-		(at 157.5 39.5)
+		(at 197.5 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
@@ -1836,7 +1839,7 @@
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
 		(uuid "0be08a9c-95ec-4e80-aeb0-1df48693b541")
-		(at 65.5 39.5)
+		(at 105.5 71.5)
 		(descr "Littelfuse 451/453 NANO2 surface-mount fuse, 2410 package; recommended pad layout")
 		(tags "Littelfuse 0451.500MRL NANO2 2410 fuse")
 		(property "Reference" "F2"
@@ -1950,7 +1953,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0e3aa5e4-e7bd-43a6-8cfc-334a921e7fa1")
-		(at 31 65)
+		(at 71 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R27"
@@ -2096,7 +2099,7 @@
 	(footprint "Fuse_1812_4532Metric"
 		(layer "F.Cu")
 		(uuid "0fc4c6dd-74b5-4838-90bd-c217b5a8e414")
-		(at 100 39.5)
+		(at 140 71.5)
 		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf)")
 		(tags "fuse")
 		(property "Reference" "F6"
@@ -2242,7 +2245,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "17cc72ad-49cb-4a07-bdb0-9c82cfbc4836")
-		(at 42.5 31)
+		(at 82.5 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
@@ -2518,7 +2521,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "1c5f20c3-30f7-4f2e-aa37-30430512ac12")
-		(at 169 39.5)
+		(at 209 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q6"
@@ -2884,7 +2887,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "1d394812-9cd9-4ed4-adc5-df844b332330")
-		(at 8 48)
+		(at 48 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q9"
@@ -3250,7 +3253,7 @@
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
 		(uuid "1e1e0ab4-a28e-4a48-af3a-479f2581f0ff")
-		(at 88.5 39.5)
+		(at 128.5 71.5)
 		(descr "Littelfuse 451/453 NANO2 surface-mount fuse, 2410 package; recommended pad layout")
 		(tags "Littelfuse 0451.500MRL NANO2 2410 fuse")
 		(property "Reference" "F4"
@@ -3364,7 +3367,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "23f37242-900b-4b6b-8e6d-27b9dd9ffbbe")
-		(at 123 31)
+		(at 163 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D8"
@@ -3640,7 +3643,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "251d1e0c-e8d1-4f5c-906c-05d2bfaa0b80")
-		(at 44 72)
+		(at 84 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K4"
@@ -3805,7 +3808,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "29c2079d-7b70-4ecc-8d61-580c805eec72")
-		(at 180.5 31)
+		(at 220.5 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D13"
@@ -4081,7 +4084,7 @@
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
 		(uuid "2c23cb03-952b-4a4a-8687-e03664447e7c")
-		(at 54 39.5)
+		(at 94 71.5)
 		(descr "Littelfuse 451/453 NANO2 surface-mount fuse, 2410 package; recommended pad layout")
 		(tags "Littelfuse 0451.500MRL NANO2 2410 fuse")
 		(property "Reference" "F1"
@@ -4195,7 +4198,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2d919c34-18ac-4814-952b-dc6fe67d1fe2")
-		(at 123 48)
+		(at 163 80)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -4341,7 +4344,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2ed6899d-9d09-41d8-b458-0c1e593d2e5d")
-		(at 19.5 56.5)
+		(at 59.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -4487,7 +4490,7 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "2ee3a0dc-4424-46cd-90b5-724cc2a737dc")
-		(at 103 8 180)
+		(at 143 40 180)
 		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
 		(tags "Pomona 73099 banana safety jack right angle")
 		(property "Reference" "J6"
@@ -4639,7 +4642,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "311a9dea-003b-4745-9473-315edaa23813")
-		(at 19.5 65)
+		(at 59.5 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
@@ -4785,7 +4788,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "32a6ba08-1abb-44bb-898e-ab419dcfd26b")
-		(at 88.5 48)
+		(at 128.5 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q16"
@@ -5151,7 +5154,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "3aaec757-e292-4f2b-9061-7fe6d034f1d0")
-		(at 8 39.5)
+		(at 48 71.5)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D15"
@@ -5427,7 +5430,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "3cb72128-1faf-4e4f-8379-861492d09122")
-		(at 123 39.5)
+		(at 163 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
@@ -5793,7 +5796,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "3dedba7c-5311-47f6-a526-a55ecb58fedf")
-		(at 111.5 31)
+		(at 151.5 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D7"
@@ -6069,7 +6072,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "42a38a0c-d88f-4622-b27b-2a873168eaae")
-		(at 157.5 31)
+		(at 197.5 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D11"
@@ -6345,7 +6348,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "4ae3aa6b-20eb-4f3f-b5e8-51752d32ff4e")
-		(at 85 72)
+		(at 125 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K7"
@@ -6510,7 +6513,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "526cf5aa-53ad-448c-b713-6e8dada331d3")
-		(at 134.5 65)
+		(at 174.5 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
@@ -6656,7 +6659,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "54192b0c-ec7c-4b05-ad5e-a6ecd579caf7")
-		(at 111.5 56.5)
+		(at 151.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -6802,7 +6805,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "54a4f6bc-9713-49a9-8b92-79dd9270efe4")
-		(at 65.5 56.5)
+		(at 105.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -6948,7 +6951,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "54ad9d2a-05c5-492f-8bdd-9e6d744cc496")
-		(at 179 72)
+		(at 219 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K14"
@@ -7113,7 +7116,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "55a3cc42-69ea-47e2-9912-0189fdd74d76")
-		(at 19.5 39.5)
+		(at 59.5 71.5)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D16"
@@ -7389,7 +7392,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "58cf5215-4894-41c0-9fbd-5d78ac7dc5b3")
-		(at 167 72)
+		(at 207 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K13"
@@ -7554,7 +7557,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "5a72f1e3-5459-48f8-a786-656677271be5")
-		(at 111.5 48)
+		(at 151.5 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q19"
@@ -7920,7 +7923,7 @@
 	(footprint "C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5ab0b668-844f-4278-aeac-0a588b8b0b23")
-		(at 19.5 31)
+		(at 59.5 63)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -8066,7 +8069,7 @@
 	(footprint "C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5ae0f434-deb3-4eb1-9250-32f71b9dc82e")
-		(at 8 31)
+		(at 48 63)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -8212,7 +8215,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "5ae34c5e-7dd6-4d35-bc36-f4649e3b64d4")
-		(at 100 31)
+		(at 140 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
@@ -8488,7 +8491,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5cff7c46-8e3f-4a56-aa98-6f1d6f2dd5be")
-		(at 8 56.5)
+		(at 48 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -8634,7 +8637,7 @@
 	(footprint "Tensility_54-00129_DCJack"
 		(layer "F.Cu")
 		(uuid "5f96dd06-6b30-432c-9643-b948d9808f13")
-		(at 42 2 90)
+		(at 85.65 33.3 -90)
 		(descr "Tensility 54-00129 right-angle 5.5/2.1 mm DC jack, THT, three terminals A/C/B")
 		(tags "Tensility 54-00129 barrel jack 5.5 2.1")
 		(property "Reference" "J7"
@@ -8717,7 +8720,7 @@
 			(uuid "ffc627be-25ec-4ab5-a6fb-34cccebb05f1")
 		)
 		(fp_text user "JACK FACE"
-			(at 1.5 2.2 180)
+			(at 1.5 2.2 0)
 			(layer "F.SilkS")
 			(uuid "3aa8189f-5f1f-4794-a8a3-dfcaa2b5b9ce")
 			(effects
@@ -8739,7 +8742,7 @@
 			)
 		)
 		(pad "" thru_hole oval
-			(at 7.7 0 90)
+			(at 7.7 0 270)
 			(size 1.8 3.5)
 			(drill oval 0.8 2.5)
 			(layers "*.Cu" "*.Mask")
@@ -8747,7 +8750,7 @@
 			(uuid "39fd8a3f-3d94-465f-b785-b274cc4c8bf9")
 		)
 		(pad "1" thru_hole oval
-			(at 13.6 0 90)
+			(at 13.6 0 270)
 			(size 1.8 4.5)
 			(drill oval 0.8 3.5)
 			(layers "*.Cu" "*.Mask")
@@ -8756,7 +8759,7 @@
 			(uuid "1527e679-2871-4fe1-bb91-a2de66257806")
 		)
 		(pad "2" thru_hole oval
-			(at 10.8 4.7 180)
+			(at 10.8 4.7)
 			(size 1.8 3.5)
 			(drill oval 0.8 2.5)
 			(layers "*.Cu" "*.Mask")
@@ -8769,7 +8772,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5ff33e9f-95bc-4d70-aacf-b33436212a7b")
-		(at 31 56.5)
+		(at 71 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -8915,7 +8918,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "6775375b-2295-458e-91e5-2e1158aae911")
-		(at 8 72)
+		(at 48 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K1"
@@ -9080,7 +9083,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "6a8e872b-0b8d-4f65-96a7-b2f9100fd56a")
-		(at 126 72)
+		(at 166 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K10"
@@ -9245,7 +9248,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "6e15d91c-1d3b-4dbc-9da3-3f7ee67df17b")
-		(at 146 39.5)
+		(at 186 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
@@ -9611,7 +9614,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "70504d52-55cf-4648-a015-06b240cf72d5")
-		(at 32 72)
+		(at 72 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K3"
@@ -9776,7 +9779,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "74bdcb9a-5ddb-45cf-9681-c1a93ce0f076")
-		(at 123 65)
+		(at 163 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R39"
@@ -9922,7 +9925,7 @@
 	(footprint "J_Wurth_WR-TBL_691137710006"
 		(layer "F.Cu")
 		(uuid "75e9119c-77cf-462f-8aa1-c4d06a3f05ef")
-		(at 68 18)
+		(at 102.5 39)
 		(descr "Series 1377 - Wire Protector 5.00mm pitch - Horizontal cable entry - THT, body 30x7.5x11.5mm, https://www.we-online.com/en/components/products/datasheet/691137710006?ki")
 		(tags "THT Horizontal")
 		(property "Reference" "J5"
@@ -10119,7 +10122,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "75fe9838-442e-4022-baa1-073d32d3020b")
-		(at 42.5 65)
+		(at 82.5 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -10265,7 +10268,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "7a2962ea-9bdd-477d-95fc-2f03d6a7a36c")
-		(at 77 48)
+		(at 117 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q15"
@@ -10631,7 +10634,7 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "7b0b9a4d-025a-4b9c-989a-a8fcbcec6f9f")
-		(at 188 8 180)
+		(at 228 40 180)
 		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
 		(tags "Pomona 73099 banana safety jack right angle")
 		(property "Reference" "J12"
@@ -10783,7 +10786,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7b5c2cca-3c36-40de-8e01-1276d3ca301b")
-		(at 146 31)
+		(at 186 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D10"
@@ -11059,7 +11062,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7cf54a9b-d8a1-4564-b69a-3fbb54dc2810")
-		(at 65.5 31)
+		(at 105.5 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
@@ -11335,7 +11338,7 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "7f7d19c2-27d0-4ffe-83ad-3a4c973763d7")
-		(at 154 8 180)
+		(at 194 40 180)
 		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
 		(tags "Pomona 73099 banana safety jack right angle")
 		(property "Reference" "J10"
@@ -11487,7 +11490,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8132a6a8-d715-4b62-9edc-589d8f2e6da1")
-		(at 180.5 48)
+		(at 220.5 80)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -11633,7 +11636,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "820c9f1a-fb61-4768-b0c8-926b59aabf2f")
-		(at 192 31)
+		(at 232 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D14"
@@ -11909,7 +11912,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "82b826fe-6cbd-4654-bac3-22cc6e22fe57")
-		(at 54 48)
+		(at 94 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q13"
@@ -12275,7 +12278,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "87155f8c-1f46-40c9-a037-16e0a90d6184")
-		(at 88.5 31)
+		(at 128.5 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D5"
@@ -12551,7 +12554,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8fd0dd56-e7ed-4823-a0b6-a257cb748474")
-		(at 134.5 48)
+		(at 174.5 80)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -12697,7 +12700,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "99873b33-6941-4939-acb7-82e5280be4d6")
-		(at 191 72)
+		(at 231 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K15"
@@ -12862,7 +12865,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "99a92867-c82c-4b74-9d63-712385999473")
-		(at 54 65)
+		(at 94 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -13008,7 +13011,7 @@
 	(footprint "C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "9cffabad-f705-4fc1-923c-f6a074367469")
-		(at 31 31)
+		(at 71 63)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -13154,7 +13157,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9d1fcc63-4297-412b-9bb9-773c071af05d")
-		(at 100 56.5)
+		(at 140 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -13300,7 +13303,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9e83ddfb-36d0-4a84-81b6-2213feec0b30")
-		(at 88.5 56.5)
+		(at 128.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -13446,7 +13449,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a01c4204-a659-4e47-a16e-21d0a97cec20")
-		(at 169 48)
+		(at 209 80)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -13592,7 +13595,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "a6d74053-ca45-4888-b680-e7487cd87688")
-		(at 192 39.5)
+		(at 232 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q8"
@@ -13958,7 +13961,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "a7b51274-66d9-4f8f-8514-3ab27c5edb67")
-		(at 138 72)
+		(at 178 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K11"
@@ -14123,7 +14126,7 @@
 	(footprint "TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "a7d74799-f5dc-4e37-8f3e-0eb0f0229524")
-		(at 157.5 65)
+		(at 197.5 97)
 		(descr "TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800")
 		(property "Reference" "U2"
@@ -14503,7 +14506,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a8a03eb6-7904-440a-8f25-505010ea580b")
-		(at 169 31)
+		(at 209 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D12"
@@ -14779,7 +14782,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a99c2a13-adc2-4795-8584-67d650fef41b")
-		(at 180.5 56.5)
+		(at 220.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -14925,7 +14928,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "aeb59891-d132-4faf-900f-a5f9edc2fb4a")
-		(at 203 72)
+		(at 243 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K16"
@@ -15090,7 +15093,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "b192b7b0-1b51-4b0d-a345-e7e01a3e97b5")
-		(at 61 72)
+		(at 101 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K5"
@@ -15255,7 +15258,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b2a150e1-8f5b-49ca-a6c2-65ba517e9f53")
-		(at 54 56.5)
+		(at 94 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -15401,7 +15404,7 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "b327fc30-a3d1-418c-a719-4272e1e94bcd")
-		(at 120 8 180)
+		(at 160 40 180)
 		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
 		(tags "Pomona 73099 banana safety jack right angle")
 		(property "Reference" "J8"
@@ -15553,7 +15556,7 @@
 	(footprint "Phoenix_1190370_LPTA-2.5-8-5.0"
 		(layer "F.Cu")
 		(uuid "b4e66626-f68c-40b5-be04-77daa8280ef8")
-		(at 167 89)
+		(at 207 121)
 		(descr "Phoenix Contact 1190370, LPTA 2,5/8-5,0, 8 positions, 5.00 mm pitch, single row, THT; body 41.5 x 21.35 mm")
 		(tags "Phoenix Contact 1190370 LPTA terminal block 5.00mm")
 		(property "Reference" "J4"
@@ -15774,7 +15777,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "b535edca-8630-4b9a-bafd-e39374ac6b60")
-		(at 180.5 39.5)
+		(at 220.5 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q7"
@@ -16140,7 +16143,7 @@
 	(footprint "R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b5787f39-1560-4ebe-88ca-7f2223fd9a4a")
-		(at 146 65)
+		(at 186 97)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R50"
@@ -16286,7 +16289,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b5b11ffe-d2f6-4e60-8d19-cb9f0d829d89")
-		(at 77 65)
+		(at 117 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R31"
@@ -16432,7 +16435,7 @@
 	(footprint "D_SMB"
 		(layer "F.Cu")
 		(uuid "b8165d0b-6bc3-4c89-820a-af7aa35cc132")
-		(at 42.5 39.5)
+		(at 82.5 71.5)
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "D19"
@@ -16698,7 +16701,7 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "ba4f20cd-23ee-4ee0-875e-d2ca7879a858")
-		(at 171 8 180)
+		(at 211 40 180)
 		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
 		(tags "Pomona 73099 banana safety jack right angle")
 		(property "Reference" "J11"
@@ -16850,7 +16853,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "bb49f367-7b97-459b-8800-7d8582e3f516")
-		(at 100 48)
+		(at 140 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q17"
@@ -17216,7 +17219,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bc880602-6d57-4db5-862c-0a479cb897a1")
-		(at 65.5 65)
+		(at 105.5 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -17362,7 +17365,7 @@
 	(footprint "XIAO-ESP32-C6-SMD"
 		(layer "F.Cu")
 		(uuid "bd5b3ba9-58a6-4d08-befb-21af8708f2a3")
-		(at 8 24)
+		(at 48 56)
 		(property "Reference" "U1"
 			(at 7.112 -21.336 0)
 			(layer "F.SilkS")
@@ -17813,7 +17816,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "bee14caf-4b3f-42f3-9efd-df394a24f02f")
-		(at 54 31)
+		(at 94 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D2"
@@ -18089,7 +18092,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "c455c67b-8381-455f-a043-02cbe72dff80")
-		(at 111.5 39.5)
+		(at 151.5 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
@@ -18455,7 +18458,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c4cf76c8-213e-42b3-a04b-f96d9e668b87")
-		(at 192 48)
+		(at 232 80)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -18601,7 +18604,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c72095ee-32a4-4dcf-a8ce-3a0b4810a719")
-		(at 157.5 48)
+		(at 197.5 80)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -18747,7 +18750,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cf0ea796-b502-4908-922b-34d076e86a7a")
-		(at 134.5 56.5)
+		(at 174.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
@@ -18893,7 +18896,7 @@
 	(footprint "Phoenix_1190370_LPTA-2.5-8-5.0"
 		(layer "F.Cu")
 		(uuid "d2f87ea7-f6e1-4bb2-a6d8-4b7dfee5051d")
-		(at 61 89)
+		(at 101 121)
 		(descr "Phoenix Contact 1190370, LPTA 2,5/8-5,0, 8 positions, 5.00 mm pitch, single row, THT; body 41.5 x 21.35 mm")
 		(tags "Phoenix Contact 1190370 LPTA terminal block 5.00mm")
 		(property "Reference" "J2"
@@ -19114,7 +19117,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d47c95fb-8bce-4b48-a801-73ec26ef3d73")
-		(at 100 65)
+		(at 140 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R33"
@@ -19260,7 +19263,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d5e341e2-6371-4c69-a604-c7ffa6a55db2")
-		(at 146 56.5)
+		(at 186 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -19406,7 +19409,7 @@
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
 		(uuid "d64c438e-df3c-4dc6-9320-19587d3210c3")
-		(at 77 39.5)
+		(at 117 71.5)
 		(descr "Littelfuse 451/453 NANO2 surface-mount fuse, 2410 package; recommended pad layout")
 		(tags "Littelfuse 0451.500MRL NANO2 2410 fuse")
 		(property "Reference" "F3"
@@ -19520,7 +19523,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "da82f2b0-a2c2-469f-912c-39587da9a1bf")
-		(at 146 48)
+		(at 186 80)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -19666,7 +19669,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "dd06b6d4-e04b-4c6d-b969-548b6468c06b")
-		(at 20 72)
+		(at 60 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K2"
@@ -19831,7 +19834,7 @@
 	(footprint "TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "dd3ed6e0-e5bc-4327-bb47-8a753ac0a113")
-		(at 169 65)
+		(at 209 97)
 		(descr "TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800")
 		(property "Reference" "U3"
@@ -20211,7 +20214,7 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "dd5ffd9d-8b21-4bd2-9d34-cf151d3597f5")
-		(at 137 8 180)
+		(at 177 40 180)
 		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
 		(tags "Pomona 73099 banana safety jack right angle")
 		(property "Reference" "J9"
@@ -20363,7 +20366,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "deb548f7-528d-4313-a36a-fc3e91f9d6ef")
-		(at 157.5 56.5)
+		(at 197.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R21"
@@ -20509,7 +20512,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "dfa9009a-23de-46b8-8258-445e5ecc19cf")
-		(at 114 72)
+		(at 154 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K9"
@@ -20674,7 +20677,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e1041fa5-9517-4ec2-9104-2707d99548c6")
-		(at 77 31)
+		(at 117 63)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D4"
@@ -20950,7 +20953,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e43e19bc-bb80-4872-a9ae-8b499c10c330")
-		(at 123 56.5)
+		(at 163 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -21096,7 +21099,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e73636b8-1b9f-4902-9f2b-5f0b0f62e3ca")
-		(at 8 65)
+		(at 48 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -21242,7 +21245,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e89b7ccc-14ab-4347-9f55-5333122d41b5")
-		(at 88.5 65)
+		(at 128.5 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R32"
@@ -21388,7 +21391,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "e9653faa-82fc-4eb9-816b-037a9620daae")
-		(at 205 50)
+		(at 245 82)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K17"
@@ -21553,7 +21556,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ec3922e3-caec-474c-bb98-0382bab8f523")
-		(at 169 56.5)
+		(at 209 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -21699,7 +21702,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ee481adc-e75c-481a-aead-b11d672a7878")
-		(at 42.5 56.5)
+		(at 82.5 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -21845,7 +21848,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f2441fa7-4257-4abc-a112-5ebda427a2a6")
-		(at 111.5 65)
+		(at 151.5 97)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R34"
@@ -21991,7 +21994,7 @@
 	(footprint "Phoenix_1190370_LPTA-2.5-8-5.0"
 		(layer "F.Cu")
 		(uuid "f332de40-e5ea-454b-a6be-1f3dfef02a81")
-		(at 114 89)
+		(at 154 121)
 		(descr "Phoenix Contact 1190370, LPTA 2,5/8-5,0, 8 positions, 5.00 mm pitch, single row, THT; body 41.5 x 21.35 mm")
 		(tags "Phoenix Contact 1190370 LPTA terminal block 5.00mm")
 		(property "Reference" "J3"
@@ -22212,7 +22215,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "f3f625c1-54bf-41e4-b72f-453b61f1b1b9")
-		(at 31 39.5)
+		(at 71 71.5)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D17"
@@ -22488,7 +22491,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "f4b869dc-fae3-4788-a29e-a6dbfac7fe55")
-		(at 65.5 48)
+		(at 105.5 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q14"
@@ -22854,7 +22857,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "f6218c7c-e68b-4e4b-831e-6ef7ff68f8d5")
-		(at 97 72)
+		(at 137 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K8"
@@ -23019,7 +23022,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "f9b2bd33-b309-4260-afbe-0dc588b61766")
-		(at 31 48)
+		(at 71 80)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q11"
@@ -23385,7 +23388,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fa987cf4-6042-429a-9ce3-20db03c87d48")
-		(at 192 56.5)
+		(at 232 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -23531,7 +23534,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fb709750-fc9c-4ff2-b3e0-10d171e9fc0d")
-		(at 77 56.5)
+		(at 117 88.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -23677,7 +23680,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "fbb5edff-612f-498a-80b8-d2f34641ecc9")
-		(at 150 72)
+		(at 190 104)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K12"
@@ -23842,7 +23845,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "fc1d459c-108d-4000-b4b4-1ce5c833ab91")
-		(at 134.5 39.5)
+		(at 174.5 71.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
@@ -24206,8 +24209,8 @@
 		)
 	)
 	(gr_rect
-		(start 0 0)
-		(end 220 110)
+		(start 40 32)
+		(end 260 142)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -24217,7 +24220,7 @@
 		(uuid "923e60de-150f-4f99-9b04-51a4460536d9")
 	)
 	(gr_text "BENCHSCAN DMMX16 — DRAFT-0 — NOT FOR MANUFACTURE"
-		(at 110 105 0)
+		(at 150 137 0)
 		(layer "F.SilkS")
 		(uuid "13dedc74-1117-4e45-81da-e3ae5d969435")
 		(effects
