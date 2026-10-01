@@ -3199,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0"
+		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0_16THT_Paired"
 			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3296,7 +3296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0"
+		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0_16THT_Paired"
 			(at 124.46 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3393,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0"
+		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0_16THT_Paired"
 			(at 213.36 53.34 0)
 			(hide yes)
 			(show_name no)

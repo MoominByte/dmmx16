@@ -2726,7 +2726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0"
+		(property "Footprint" "BenchScan_Connectors:Phoenix_1190370_LPTA-2.5-8-5.0_16THT_Paired"
 			(at 99.06 64.77 0)
 			(hide yes)
 			(show_name no)
