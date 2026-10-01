@@ -79,7 +79,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "001198c3-caac-4911-bd05-2440a670a81a")
-		(at 59.5 80)
+		(at 159 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q10"
@@ -430,22 +430,11 @@
 			(uuid "07d4158f-4428-4e3b-b5b9-df27c2bdd112")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "0800aa9a-473c-4397-8919-8308526983e7")
-		(at 113 104)
+		(at 110 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K6"
@@ -499,7 +488,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -510,7 +499,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -521,7 +510,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -532,7 +521,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -831,7 +820,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "09f9b7d4-96ff-4277-b66c-c38622085fb6")
-		(at 174.5 63)
+		(at 150 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D9"
@@ -1092,22 +1081,11 @@
 			(uuid "de1a6a36-4c49-45f7-b61e-e418ae0e904d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "0b8ed202-fec6-4cab-a534-eb50659c02e9")
-		(at 82.5 80)
+		(at 183 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q12"
@@ -1458,22 +1436,11 @@
 			(uuid "8c1c2d09-0453-4faf-8c7b-0e16bf5a7c60")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "0bb6f11a-fbc7-4e17-afe1-a28f1741abc8")
-		(at 197.5 71.5)
+		(at 95 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
@@ -1824,17 +1791,6 @@
 			(uuid "7c71bd77-3e26-488d-a809-df319ddd3eb1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
@@ -1953,7 +1909,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0e3aa5e4-e7bd-43a6-8cfc-334a921e7fa1")
-		(at 71 97)
+		(at 166 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R27"
@@ -2084,17 +2040,6 @@
 			(uuid "c7d30387-787a-4ffd-81b4-ba723f9ad248")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Fuse_1812_4532Metric"
 		(layer "F.Cu")
@@ -2245,7 +2190,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "17cc72ad-49cb-4a07-bdb0-9c82cfbc4836")
-		(at 82.5 63)
+		(at 46 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
@@ -2506,22 +2451,11 @@
 			(uuid "847fb6b0-9624-4837-98c1-06b89114af2e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "1c5f20c3-30f7-4f2e-aa37-30430512ac12")
-		(at 209 71.5)
+		(at 107 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q6"
@@ -2872,22 +2806,11 @@
 			(uuid "05716f77-42f0-4ff9-8120-28017ed95599")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "1d394812-9cd9-4ed4-adc5-df844b332330")
-		(at 48 80)
+		(at 147 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q9"
@@ -3238,17 +3161,6 @@
 			(uuid "834c19cf-4a61-4e5c-a8a4-c684d3f789ef")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
@@ -3367,7 +3279,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "23f37242-900b-4b6b-8e6d-27b9dd9ffbbe")
-		(at 163 63)
+		(at 134 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D8"
@@ -3628,22 +3540,11 @@
 			(uuid "46cff239-c8c0-4ee6-8de4-5f300e7c258e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "251d1e0c-e8d1-4f5c-906c-05d2bfaa0b80")
-		(at 84 104)
+		(at 82 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K4"
@@ -3697,7 +3598,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -3708,7 +3609,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -3719,7 +3620,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -3730,7 +3631,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -3808,7 +3709,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "29c2079d-7b70-4ecc-8d61-580c805eec72")
-		(at 220.5 63)
+		(at 202 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D13"
@@ -4069,17 +3970,6 @@
 			(uuid "88f68813-b71c-45ec-864f-22ccfea83d84")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
@@ -4198,7 +4088,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2d919c34-18ac-4814-952b-dc6fe67d1fe2")
-		(at 163 80)
+		(at 46.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -4329,22 +4219,11 @@
 			(uuid "6a460a64-ddff-44cc-bb40-a471b62ec131")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2ed6899d-9d09-41d8-b458-0c1e593d2e5d")
-		(at 59.5 88.5)
+		(at 150.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -4475,17 +4354,6 @@
 			(uuid "b9719a7e-7eaf-472a-be42-3809464e2ca3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
@@ -4642,7 +4510,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "311a9dea-003b-4745-9473-315edaa23813")
-		(at 59.5 97)
+		(at 154 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
@@ -4773,22 +4641,11 @@
 			(uuid "483de537-d2ef-48fc-8bcf-70e2e25a0afe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "32a6ba08-1abb-44bb-898e-ab419dcfd26b")
-		(at 128.5 80)
+		(at 235 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q16"
@@ -5139,22 +4996,11 @@
 			(uuid "525eb386-a619-478c-8b20-0a1c59092c5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "3aaec757-e292-4f2b-9061-7fe6d034f1d0")
-		(at 48 71.5)
+		(at 226 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D15"
@@ -5415,22 +5261,11 @@
 			(uuid "ad0ede31-1499-4c9a-b255-f29d4621945a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "3cb72128-1faf-4e4f-8379-861492d09122")
-		(at 163 71.5)
+		(at 55 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
@@ -5781,22 +5616,11 @@
 			(uuid "06487abe-6ba4-43d7-849d-994723608db9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "3dedba7c-5311-47f6-a526-a55ecb58fedf")
-		(at 151.5 63)
+		(at 122 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D7"
@@ -6057,22 +5881,11 @@
 			(uuid "8b1ec33d-0e96-4d6d-88d1-b75e4592570f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "42a38a0c-d88f-4622-b27b-2a873168eaae")
-		(at 197.5 63)
+		(at 174 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D11"
@@ -6333,22 +6146,11 @@
 			(uuid "d24cee6a-424b-47c3-bb03-c3fedf18a650")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "4ae3aa6b-20eb-4f3f-b5e8-51752d32ff4e")
-		(at 125 104)
+		(at 122 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K7"
@@ -6402,7 +6204,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -6413,7 +6215,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -6424,7 +6226,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -6435,7 +6237,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -6513,7 +6315,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "526cf5aa-53ad-448c-b713-6e8dada331d3")
-		(at 174.5 97)
+		(at 160 84)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
@@ -6644,22 +6446,11 @@
 			(uuid "39856551-4d1c-4552-86f5-214798913ac7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "54192b0c-ec7c-4b05-ad5e-a6ecd579caf7")
-		(at 151.5 88.5)
+		(at 239 70)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -6790,22 +6581,11 @@
 			(uuid "0425fbd9-3495-4ecc-85e5-f6cce51f3a23")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "54a4f6bc-9713-49a9-8b92-79dd9270efe4")
-		(at 105.5 88.5)
+		(at 202.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -6936,22 +6716,11 @@
 			(uuid "324fc532-f460-4805-807f-117734fe8eff")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "54ad9d2a-05c5-492f-8bdd-9e6d744cc496")
-		(at 219 104)
+		(at 214 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K14"
@@ -7005,7 +6774,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -7016,7 +6785,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -7027,7 +6796,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -7038,7 +6807,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -7116,7 +6885,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "55a3cc42-69ea-47e2-9912-0189fdd74d76")
-		(at 59.5 71.5)
+		(at 238 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D16"
@@ -7377,22 +7146,11 @@
 			(uuid "899ed3c0-95fe-4357-b09d-57cf249952c4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "58cf5215-4894-41c0-9fbd-5d78ac7dc5b3")
-		(at 207 104)
+		(at 202 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K13"
@@ -7446,7 +7204,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -7457,7 +7215,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -7468,7 +7226,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -7479,7 +7237,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -7923,7 +7681,7 @@
 	(footprint "C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5ab0b668-844f-4278-aeac-0a588b8b0b23")
-		(at 59.5 63)
+		(at 170.5 82)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -8054,22 +7812,11 @@
 			(uuid "61e00442-7437-4bda-9b63-2cbd00b70a65")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5ae0f434-deb3-4eb1-9250-32f71b9dc82e")
-		(at 48 63)
+		(at 106.5 82)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -8200,22 +7947,11 @@
 			(uuid "6cd3dd5d-dff7-459c-a838-f19e8cf56291")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "5ae34c5e-7dd6-4d35-bc36-f4649e3b64d4")
-		(at 140 63)
+		(at 110 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
@@ -8476,22 +8212,11 @@
 			(uuid "5b5813c9-ffe1-4389-b633-710080458cd1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5cff7c46-8e3f-4a56-aa98-6f1d6f2dd5be")
-		(at 48 88.5)
+		(at 134.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -8622,17 +8347,6 @@
 			(uuid "bb6b217f-c8c7-4f5a-a824-7e6070499567")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Tensility_54-00129_DCJack"
 		(layer "F.Cu")
@@ -8772,7 +8486,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5ff33e9f-95bc-4d70-aacf-b33436212a7b")
-		(at 71 88.5)
+		(at 162.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -8903,22 +8617,11 @@
 			(uuid "ac93c21e-0ced-48c4-9103-e6a9521ac56f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "6775375b-2295-458e-91e5-2e1158aae911")
-		(at 48 104)
+		(at 46 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K1"
@@ -8972,7 +8675,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -8983,7 +8686,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -8994,7 +8697,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -9005,7 +8708,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -9083,7 +8786,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "6a8e872b-0b8d-4f65-96a7-b2f9100fd56a")
-		(at 166 104)
+		(at 162 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K10"
@@ -9137,7 +8840,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -9148,7 +8851,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -9159,7 +8862,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -9170,7 +8873,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -9248,7 +8951,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "6e15d91c-1d3b-4dbc-9da3-3f7ee67df17b")
-		(at 186 71.5)
+		(at 79 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
@@ -9599,22 +9302,11 @@
 			(uuid "296e0b38-9ae4-43b9-a9a8-a24b129fbd0a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "70504d52-55cf-4648-a015-06b240cf72d5")
-		(at 72 104)
+		(at 70 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K3"
@@ -9668,7 +9360,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -9679,7 +9371,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -9690,7 +9382,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -9701,7 +9393,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -9779,7 +9471,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "74bdcb9a-5ddb-45cf-9681-c1a93ce0f076")
-		(at 163 97)
+		(at 108 76)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R39"
@@ -9910,17 +9602,6 @@
 			(uuid "23e64611-4967-4f57-a121-effcbff14179")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "J_Wurth_WR-TBL_691137710006"
 		(layer "F.Cu")
@@ -10122,7 +9803,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "75fe9838-442e-4022-baa1-073d32d3020b")
-		(at 82.5 97)
+		(at 178 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -10253,22 +9934,11 @@
 			(uuid "68c2b3c2-7029-4898-8c98-0c9ea22ab460")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "7a2962ea-9bdd-477d-95fc-2f03d6a7a36c")
-		(at 117 80)
+		(at 223 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q15"
@@ -10619,17 +10289,6 @@
 			(uuid "96694605-d6bb-4294-a00a-41a67bbade42")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
@@ -10786,7 +10445,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7b5c2cca-3c36-40de-8e01-1276d3ca301b")
-		(at 186 63)
+		(at 162 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D10"
@@ -11047,22 +10706,11 @@
 			(uuid "43f577d1-7a8d-46a7-8627-eb8909aae8fd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7cf54a9b-d8a1-4564-b69a-3fbb54dc2810")
-		(at 105.5 63)
+		(at 70 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
@@ -11323,17 +10971,6 @@
 			(uuid "618717a5-d257-42e5-b41e-dfb2a3e6aa58")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
@@ -11490,7 +11127,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8132a6a8-d715-4b62-9edc-589d8f2e6da1")
-		(at 220.5 80)
+		(at 110.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -11621,22 +11258,11 @@
 			(uuid "d2961c96-568a-4e70-9feb-910af350e162")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "820c9f1a-fb61-4768-b0c8-926b59aabf2f")
-		(at 232 63)
+		(at 214 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D14"
@@ -11897,22 +11523,11 @@
 			(uuid "3cf6e7a9-2306-4e21-95b2-c8da3b2de830")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "82b826fe-6cbd-4654-bac3-22cc6e22fe57")
-		(at 94 80)
+		(at 199 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q13"
@@ -12263,22 +11878,11 @@
 			(uuid "330748d4-d1c9-43dd-81a6-ddbebdf024f9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "87155f8c-1f46-40c9-a037-16e0a90d6184")
-		(at 128.5 63)
+		(at 98 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D5"
@@ -12539,22 +12143,11 @@
 			(uuid "5d016dda-69b4-4192-9790-d6f222a914a2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8fd0dd56-e7ed-4823-a0b6-a257cb748474")
-		(at 174.5 80)
+		(at 58.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -12685,22 +12278,11 @@
 			(uuid "6743380f-4818-4451-bf17-710e1d7dfca2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "99873b33-6941-4939-acb7-82e5280be4d6")
-		(at 231 104)
+		(at 226 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K15"
@@ -12754,7 +12336,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -12765,7 +12347,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -12776,7 +12358,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -12787,7 +12369,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -12865,7 +12447,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "99a92867-c82c-4b74-9d63-712385999473")
-		(at 94 97)
+		(at 190 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -12996,17 +12578,6 @@
 			(uuid "07af55be-98ed-474c-a968-cc65f80922eb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "C_1210_3225Metric"
 		(layer "F.Cu")
@@ -13157,7 +12728,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9d1fcc63-4297-412b-9bb9-773c071af05d")
-		(at 140 88.5)
+		(at 238.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -13288,22 +12859,11 @@
 			(uuid "866383ff-e583-4f5c-b214-b7d32a88f0d7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9e83ddfb-36d0-4a84-81b6-2213feec0b30")
-		(at 128.5 88.5)
+		(at 226.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -13434,22 +12994,11 @@
 			(uuid "82fc772b-eb38-4279-aab7-b6d710bd6965")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a01c4204-a659-4e47-a16e-21d0a97cec20")
-		(at 209 80)
+		(at 98.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -13580,22 +13129,11 @@
 			(uuid "5e887afb-7456-4d1d-9eb0-ab69badbe135")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "a6d74053-ca45-4888-b680-e7487cd87688")
-		(at 232 71.5)
+		(at 131 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q8"
@@ -13946,22 +13484,11 @@
 			(uuid "fd5a15a0-a35c-4156-ac1f-b6e7c389b8fe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "a7b51274-66d9-4f8f-8514-3ab27c5edb67")
-		(at 178 104)
+		(at 174 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K11"
@@ -14015,7 +13542,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -14026,7 +13553,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -14037,7 +13564,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -14048,7 +13575,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -14126,7 +13653,7 @@
 	(footprint "TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "a7d74799-f5dc-4e37-8f3e-0eb0f0229524")
-		(at 197.5 97)
+		(at 112 82)
 		(descr "TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800")
 		(property "Reference" "U2"
@@ -14491,22 +14018,11 @@
 			(uuid "81d66155-6c68-462c-be3c-2aff91f5dbd0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a8a03eb6-7904-440a-8f25-505010ea580b")
-		(at 209 63)
+		(at 186 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D12"
@@ -14767,22 +14283,11 @@
 			(uuid "fa0f79ac-f161-4098-980f-28e5be920927")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a99c2a13-adc2-4795-8584-67d650fef41b")
-		(at 220.5 88.5)
+		(at 114 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -14913,22 +14418,11 @@
 			(uuid "c713c864-c99a-483a-abde-fdfa4993b9d8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "aeb59891-d132-4faf-900f-a5f9edc2fb4a")
-		(at 243 104)
+		(at 238 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K16"
@@ -14982,7 +14476,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -14993,7 +14487,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -15004,7 +14498,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -15015,7 +14509,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -15093,7 +14587,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "b192b7b0-1b51-4b0d-a345-e7e01a3e97b5")
-		(at 101 104)
+		(at 98 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K5"
@@ -15147,7 +14641,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -15158,7 +14652,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -15169,7 +14663,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -15180,7 +14674,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -15258,7 +14752,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b2a150e1-8f5b-49ca-a6c2-65ba517e9f53")
-		(at 94 88.5)
+		(at 186.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -15389,17 +14883,6 @@
 			(uuid "777afdcb-f243-4639-9c20-fc8585ce972f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
@@ -15777,7 +15260,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "b535edca-8630-4b9a-bafd-e39374ac6b60")
-		(at 220.5 71.5)
+		(at 119 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q7"
@@ -16128,22 +15611,11 @@
 			(uuid "f94a3b9c-f43a-4f72-aaef-2bfdfd37e78f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b5787f39-1560-4ebe-88ca-7f2223fd9a4a")
-		(at 186 97)
+		(at 172 76)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R50"
@@ -16274,22 +15746,11 @@
 			(uuid "5dceb727-6272-43eb-9c37-1b0d7e9a635d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b5b11ffe-d2f6-4e60-8d19-cb9f0d829d89")
-		(at 117 97)
+		(at 218 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R31"
@@ -16420,17 +15881,6 @@
 			(uuid "5ed8ae40-42aa-4510-9bb2-ea69fd971e3c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "D_SMB"
 		(layer "F.Cu")
@@ -16853,7 +16303,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "bb49f367-7b97-459b-8800-7d8582e3f516")
-		(at 140 80)
+		(at 235 70)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q17"
@@ -17204,22 +16654,11 @@
 			(uuid "cfcefe59-eded-4e3d-b753-b037e1e528a7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bc880602-6d57-4db5-862c-0a479cb897a1")
-		(at 105.5 97)
+		(at 206 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -17350,17 +16789,6 @@
 			(uuid "6d5fdec3-1288-477b-be6c-b9e3b873e113")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "XIAO-ESP32-C6-SMD"
 		(layer "F.Cu")
@@ -17816,7 +17244,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "bee14caf-4b3f-42f3-9efd-df394a24f02f")
-		(at 94 63)
+		(at 58 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D2"
@@ -18077,22 +17505,11 @@
 			(uuid "582cd3d1-40dd-4d75-ad5d-cbbd5a282bdb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "c455c67b-8381-455f-a043-02cbe72dff80")
-		(at 151.5 71.5)
+		(at 43 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
@@ -18443,22 +17860,11 @@
 			(uuid "7255697e-7fcc-4793-a72d-806a7d5e3763")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c4cf76c8-213e-42b3-a04b-f96d9e668b87")
-		(at 232 80)
+		(at 122.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -18589,22 +17995,11 @@
 			(uuid "9944b456-0bff-4d2a-8827-637e973f4969")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c72095ee-32a4-4dcf-a8ce-3a0b4810a719")
-		(at 197.5 80)
+		(at 82.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -18735,22 +18130,11 @@
 			(uuid "950ec4aa-5c2b-4bcf-81f1-1f1c9a0b008b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cf0ea796-b502-4908-922b-34d076e86a7a")
-		(at 174.5 88.5)
+		(at 62 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
@@ -18881,17 +18265,6 @@
 			(uuid "05696d6a-1618-4a89-acf4-26917ce4e3e9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Phoenix_1190370_LPTA-2.5-8-5.0"
 		(layer "F.Cu")
@@ -19117,7 +18490,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d47c95fb-8bce-4b48-a801-73ec26ef3d73")
-		(at 140 97)
+		(at 242 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R33"
@@ -19248,22 +18621,11 @@
 			(uuid "b16b49b1-5e9a-4596-a686-a7e01947f294")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d5e341e2-6371-4c69-a604-c7ffa6a55db2")
-		(at 186 88.5)
+		(at 74 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -19394,17 +18756,6 @@
 			(uuid "f72a9d2c-b59c-4275-8b1f-8df0c4f89bc2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Fuse_Littelfuse_0451_NANO2_2410"
 		(layer "F.Cu")
@@ -19523,7 +18874,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "da82f2b0-a2c2-469f-912c-39587da9a1bf")
-		(at 186 80)
+		(at 70.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -19654,22 +19005,11 @@
 			(uuid "cb485226-2ec0-4342-a974-2c8e49b92538")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "dd06b6d4-e04b-4c6d-b969-548b6468c06b")
-		(at 60 104)
+		(at 58 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K2"
@@ -19723,7 +19063,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -19734,7 +19074,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -19745,7 +19085,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -19756,7 +19096,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -19834,7 +19174,7 @@
 	(footprint "TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "dd3ed6e0-e5bc-4327-bb47-8a753ac0a113")
-		(at 209 97)
+		(at 176 82)
 		(descr "TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800")
 		(property "Reference" "U3"
@@ -20199,17 +19539,6 @@
 			(uuid "a845ae9a-f250-4c63-9c86-10ac44fc8e84")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
@@ -20366,7 +19695,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "deb548f7-528d-4313-a36a-fc3e91f9d6ef")
-		(at 197.5 88.5)
+		(at 86 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R21"
@@ -20497,22 +19826,11 @@
 			(uuid "643be54e-e64d-4207-a593-33d1ee65d92d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "dfa9009a-23de-46b8-8258-445e5ecc19cf")
-		(at 154 104)
+		(at 150 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K9"
@@ -20566,7 +19884,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -20577,7 +19895,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -20588,7 +19906,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -20599,7 +19917,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -20677,7 +19995,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e1041fa5-9517-4ec2-9104-2707d99548c6")
-		(at 117 63)
+		(at 82 97)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D4"
@@ -20938,22 +20256,11 @@
 			(uuid "8fac043a-b2fa-49e6-93e7-4a0327b78996")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e43e19bc-bb80-4872-a9ae-8b499c10c330")
-		(at 163 88.5)
+		(at 50 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -21084,22 +20391,11 @@
 			(uuid "94e8f631-d0ff-4f8e-a0ba-1fadbe663468")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e73636b8-1b9f-4902-9f2b-5f0b0f62e3ca")
-		(at 48 97)
+		(at 138 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -21230,22 +20526,11 @@
 			(uuid "495e94b6-1b77-44d5-9656-f466fef97dea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e89b7ccc-14ab-4347-9f55-5333122d41b5")
-		(at 128.5 97)
+		(at 230 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R32"
@@ -21376,22 +20661,11 @@
 			(uuid "f0bc153d-0fd2-4c3d-8345-0cd74570f0a4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "e9653faa-82fc-4eb9-816b-037a9620daae")
-		(at 245 82)
+		(at 238 58)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K17"
@@ -21445,7 +20719,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -21456,7 +20730,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -21467,7 +20741,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -21478,7 +20752,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -21556,7 +20830,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ec3922e3-caec-474c-bb98-0382bab8f523")
-		(at 209 88.5)
+		(at 102 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -21687,22 +20961,11 @@
 			(uuid "59bb93b0-6579-4504-912f-d2bd74c58597")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ee481adc-e75c-481a-aead-b11d672a7878")
-		(at 82.5 88.5)
+		(at 174.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -21833,22 +21096,11 @@
 			(uuid "5292f92c-b062-444b-ae66-e1fba243951b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f2441fa7-4257-4abc-a112-5ebda427a2a6")
-		(at 151.5 97)
+		(at 243 70)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R34"
@@ -21979,17 +21231,6 @@
 			(uuid "6e89e01d-0fc6-410d-aa09-4ceda247fd0c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Phoenix_1190370_LPTA-2.5-8-5.0"
 		(layer "F.Cu")
@@ -22215,7 +21456,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "f3f625c1-54bf-41e4-b72f-453b61f1b1b9")
-		(at 71 71.5)
+		(at 238 65)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D17"
@@ -22476,22 +21717,11 @@
 			(uuid "58b2f321-224e-4387-b957-a7a31816a773")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "f4b869dc-fae3-4788-a29e-a6dbfac7fe55")
-		(at 105.5 80)
+		(at 211 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q14"
@@ -22842,22 +22072,11 @@
 			(uuid "3370b951-7e0a-4d3d-a383-4fd927b2da51")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "f6218c7c-e68b-4e4b-831e-6ef7ff68f8d5")
-		(at 137 104)
+		(at 134 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K8"
@@ -22911,7 +22130,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -22922,7 +22141,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -22933,7 +22152,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -22944,7 +22163,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -23022,7 +22241,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "f9b2bd33-b309-4260-afbe-0dc588b61766")
-		(at 71 80)
+		(at 171 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q11"
@@ -23373,22 +22592,11 @@
 			(uuid "88ccf919-bdab-4031-9f99-25554d279933")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fa987cf4-6042-429a-9ce3-20db03c87d48")
-		(at 232 88.5)
+		(at 126 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -23519,22 +22727,11 @@
 			(uuid "ac076125-bd6b-4859-8023-fc0126c78272")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fb709750-fc9c-4ff2-b3e0-10d171e9fc0d")
-		(at 117 88.5)
+		(at 214.5 92)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -23665,22 +22862,11 @@
 			(uuid "e5011ca8-f7cb-487f-8df2-9bb31064de37")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "fbb5edff-612f-498a-80b8-d2f34641ecc9")
-		(at 190 104)
+		(at 186 105)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K12"
@@ -23734,7 +22920,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -23745,7 +22931,7 @@
 			(end -0.35 0)
 			(stroke
 				(width 0.2)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
@@ -23756,7 +22942,7 @@
 			(end 9.35 7.94)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
@@ -23767,7 +22953,7 @@
 			(end 9.1 7.69)
 			(stroke
 				(width 0.1)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
@@ -23845,7 +23031,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "fc1d459c-108d-4000-b4b4-1ce5c833ab91")
-		(at 174.5 71.5)
+		(at 67 92)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
@@ -24196,17 +23382,6 @@
 			(uuid "a6738a51-b1b5-476a-b4fd-6583ba633ae6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(gr_rect
 		(start 40 32)
