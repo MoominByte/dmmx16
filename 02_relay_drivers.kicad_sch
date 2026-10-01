@@ -263,7 +263,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -1.778 180)
+					(at 7.62 -2.54 180)
 					(length 5.588)
 					(name "S"
 						(effects
@@ -281,7 +281,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 1.778 180)
+					(at 7.62 2.54 180)
 					(length 5.588)
 					(name "D"
 						(effects
@@ -865,7 +865,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 217.678 0)
+		(at 88.9 218.44 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -874,7 +874,7 @@
 		)
 		(uuid "0be4262d-e60c-4c60-9707-d2bed9da3ed5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 217.678 0)
+			(at 88.9 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -887,7 +887,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 217.678 0)
+		(at 281.94 218.44 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -896,7 +896,7 @@
 		)
 		(uuid "0c6c63c5-4c3d-49cc-97b0-87f637375476")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 217.678 0)
+			(at 281.94 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -953,7 +953,7 @@
 	)
 	(global_label "COIL_K9"
 		(shape bidirectional)
-		(at 88.9 240.792 0)
+		(at 88.9 240.03 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -962,7 +962,7 @@
 		)
 		(uuid "0fea19df-e5b6-4a9d-aa13-a8d9d5bb1993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 240.792 0)
+			(at 88.9 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1217,7 +1217,7 @@
 	)
 	(global_label "COIL_K6"
 		(shape bidirectional)
-		(at 88.9 160.782 0)
+		(at 88.9 160.02 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1226,7 +1226,7 @@
 		)
 		(uuid "24ad78e5-9f1b-42cf-bf2b-a1198d56cab1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 160.782 0)
+			(at 88.9 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +1239,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 84.328 0)
+		(at 281.94 85.09 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1248,7 +1248,7 @@
 		)
 		(uuid "26a64888-9833-4581-8c8a-6207b395dfa9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 84.328 0)
+			(at 281.94 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1349,7 +1349,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 137.668 0)
+		(at 88.9 138.43 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1358,7 +1358,7 @@
 		)
 		(uuid "31a378dc-fbf2-4ba7-a390-aba49cf7fdec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 137.668 0)
+			(at 88.9 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1371,7 +1371,7 @@
 	)
 	(global_label "COIL_K4"
 		(shape bidirectional)
-		(at 88.9 107.442 0)
+		(at 88.9 106.68 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1380,7 +1380,7 @@
 		)
 		(uuid "325aa34e-e215-441d-b94a-cab05c75847d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 107.442 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,7 +1481,7 @@
 	)
 	(global_label "COIL_K14"
 		(shape bidirectional)
-		(at 281.94 134.112 0)
+		(at 281.94 133.35 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1490,7 +1490,7 @@
 		)
 		(uuid "362260fe-df82-435e-9c13-afe1e135a269")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 134.112 0)
+			(at 281.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +1613,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 30.988 0)
+		(at 88.9 31.75 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1622,7 +1622,7 @@
 		)
 		(uuid "3d7a04b8-ed79-4015-8d5c-e2243629987a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 30.988 0)
+			(at 88.9 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1723,7 +1723,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 110.998 0)
+		(at 281.94 111.76 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1732,7 +1732,7 @@
 		)
 		(uuid "462e18d4-6000-43ff-b85a-0ea6d57f4233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 110.998 0)
+			(at 281.94 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1899,7 +1899,7 @@
 	)
 	(global_label "COIL_K16"
 		(shape bidirectional)
-		(at 281.94 187.452 0)
+		(at 281.94 186.69 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1908,7 +1908,7 @@
 		)
 		(uuid "5d5642f7-3ab1-4aea-b684-1ae385207843")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 187.452 0)
+			(at 281.94 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1921,7 +1921,7 @@
 	)
 	(global_label "COIL_K1"
 		(shape bidirectional)
-		(at 88.9 27.432 0)
+		(at 88.9 26.67 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1930,7 +1930,7 @@
 		)
 		(uuid "5d8526e0-e910-494c-b218-5881fb813ebc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 27.432 0)
+			(at 88.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +1987,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 137.668 0)
+		(at 281.94 138.43 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1996,7 +1996,7 @@
 		)
 		(uuid "61dc72b8-4da0-4c3c-a747-54229d77ebc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 137.668 0)
+			(at 281.94 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +2273,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 57.658 0)
+		(at 281.94 58.42 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2282,7 +2282,7 @@
 		)
 		(uuid "827b4d6d-a2a6-48bc-804d-96f92742c074")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 57.658 0)
+			(at 281.94 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,7 +2317,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 110.998 0)
+		(at 88.9 111.76 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2326,7 +2326,7 @@
 		)
 		(uuid "88b2605c-400e-452f-a4a0-f8fe30e4d1e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 110.998 0)
+			(at 88.9 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2361,7 +2361,7 @@
 	)
 	(global_label "COIL_K11"
 		(shape bidirectional)
-		(at 281.94 54.102 0)
+		(at 281.94 53.34 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2370,7 +2370,7 @@
 		)
 		(uuid "8964398f-42b8-42cf-ac0f-bb8e1d973ef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 54.102 0)
+			(at 281.94 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2383,7 +2383,7 @@
 	)
 	(global_label "COIL_K5"
 		(shape bidirectional)
-		(at 88.9 134.112 0)
+		(at 88.9 133.35 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2392,7 +2392,7 @@
 		)
 		(uuid "8ce2f849-abd5-402b-8855-a2785d81106b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 134.112 0)
+			(at 88.9 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2581,7 +2581,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 164.338 0)
+		(at 88.9 165.1 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2590,7 +2590,7 @@
 		)
 		(uuid "982dba2f-3e91-4f1f-a579-722e16560511")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 164.338 0)
+			(at 88.9 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,7 +2823,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 84.328 0)
+		(at 88.9 85.09 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2832,7 +2832,7 @@
 		)
 		(uuid "a68e8309-7595-435c-afec-56288283bd65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 84.328 0)
+			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2845,7 +2845,7 @@
 	)
 	(global_label "COIL_K17"
 		(shape bidirectional)
-		(at 281.94 214.122 0)
+		(at 281.94 213.36 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2854,7 +2854,7 @@
 		)
 		(uuid "a7cb89b7-b47f-43e0-824b-1ebfaf5cf7b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 214.122 0)
+			(at 281.94 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2933,7 +2933,7 @@
 	)
 	(global_label "COIL_K15"
 		(shape bidirectional)
-		(at 281.94 160.782 0)
+		(at 281.94 160.02 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2942,7 +2942,7 @@
 		)
 		(uuid "aacea40d-10dc-4cbf-a40a-3e40c1746509")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 160.782 0)
+			(at 281.94 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,7 +3021,7 @@
 	)
 	(global_label "COIL_K13"
 		(shape bidirectional)
-		(at 281.94 107.442 0)
+		(at 281.94 106.68 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3030,7 +3030,7 @@
 		)
 		(uuid "b04be1cc-8cc4-4ee8-8cf7-e12173be3b62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 107.442 0)
+			(at 281.94 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3065,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 191.008 0)
+		(at 281.94 191.77 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3074,7 +3074,7 @@
 		)
 		(uuid "b165faa0-0db1-4333-9df8-aca89b51904e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 191.008 0)
+			(at 281.94 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +3219,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 30.988 0)
+		(at 281.94 31.75 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3228,7 +3228,7 @@
 		)
 		(uuid "c0d9571b-2a51-4504-a5b8-3bf9fbe0b520")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 30.988 0)
+			(at 281.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3285,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 244.348 0)
+		(at 88.9 245.11 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3294,7 +3294,7 @@
 		)
 		(uuid "c406472c-b60b-4656-98d6-7fb7c12ae458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 244.348 0)
+			(at 88.9 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3373,7 +3373,7 @@
 	)
 	(global_label "COIL_K8"
 		(shape bidirectional)
-		(at 88.9 214.122 0)
+		(at 88.9 213.36 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3382,7 +3382,7 @@
 		)
 		(uuid "ca2ee008-9653-4efb-8a4b-2a86f83acff9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 214.122 0)
+			(at 88.9 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3417,7 +3417,7 @@
 	)
 	(global_label "COIL_K12"
 		(shape bidirectional)
-		(at 281.94 80.772 0)
+		(at 281.94 80.01 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3426,7 +3426,7 @@
 		)
 		(uuid "d4055e47-6995-4ac8-b5a9-acc30939d3c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 80.772 0)
+			(at 281.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +3439,7 @@
 	)
 	(global_label "COIL_K3"
 		(shape bidirectional)
-		(at 88.9 80.772 0)
+		(at 88.9 80.01 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3448,7 +3448,7 @@
 		)
 		(uuid "d710cfd5-e569-4695-a3e8-f827c8ed8155")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 80.772 0)
+			(at 88.9 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +3615,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 57.658 0)
+		(at 88.9 58.42 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3624,7 +3624,7 @@
 		)
 		(uuid "e4b68d46-b672-4e8d-a9ce-52c132072dc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 57.658 0)
+			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,7 +3659,7 @@
 	)
 	(global_label "COIL_K2"
 		(shape bidirectional)
-		(at 88.9 54.102 0)
+		(at 88.9 53.34 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3668,7 +3668,7 @@
 		)
 		(uuid "e63f6a81-5f4e-42c2-a9ae-b5777654f003")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 54.102 0)
+			(at 88.9 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3681,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 281.94 164.338 0)
+		(at 281.94 165.1 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3690,7 +3690,7 @@
 		)
 		(uuid "e7e02b35-eb8e-4401-839f-54479519d61d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 164.338 0)
+			(at 281.94 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3725,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 88.9 191.008 0)
+		(at 88.9 191.77 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3734,7 +3734,7 @@
 		)
 		(uuid "e977857e-a3cf-47e4-87ea-5b8067b62773")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 191.008 0)
+			(at 88.9 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +3813,7 @@
 	)
 	(global_label "COIL_K7"
 		(shape bidirectional)
-		(at 88.9 187.452 0)
+		(at 88.9 186.69 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3822,7 +3822,7 @@
 		)
 		(uuid "f24ade6e-0835-4e22-81e3-09c6718cfcbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 187.452 0)
+			(at 88.9 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3879,7 +3879,7 @@
 	)
 	(global_label "COIL_K10"
 		(shape bidirectional)
-		(at 281.94 27.432 0)
+		(at 281.94 26.67 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3888,7 +3888,7 @@
 		)
 		(uuid "f615797a-b8b2-4873-9b54-cd6e5ea7a232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.94 27.432 0)
+			(at 281.94 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

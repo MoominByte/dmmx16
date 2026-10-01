@@ -1038,7 +1038,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -1.778 180)
+					(at 7.62 -2.54 180)
 					(length 5.588)
 					(name "S"
 						(effects
@@ -1056,7 +1056,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 1.778 180)
+					(at 7.62 2.54 180)
 					(length 5.588)
 					(name "D"
 						(effects
@@ -2617,7 +2617,7 @@
 	)
 	(global_label "+5V_RELAY"
 		(shape bidirectional)
-		(at 139.7 165.608 0)
+		(at 139.7 166.37 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2626,7 +2626,7 @@
 		)
 		(uuid "5d0143af-f109-4a26-9f92-ad9bdc987b57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 165.608 0)
+			(at 139.7 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2793,7 +2793,7 @@
 	)
 	(global_label "PWR_FUSED"
 		(shape bidirectional)
-		(at 139.7 162.052 0)
+		(at 139.7 161.29 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2802,7 +2802,7 @@
 		)
 		(uuid "9c132df6-b164-4549-8da8-c56722dff286")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 162.052 0)
+			(at 139.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
