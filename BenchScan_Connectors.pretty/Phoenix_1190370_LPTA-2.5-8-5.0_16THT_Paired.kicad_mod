@@ -37,7 +37,8 @@
   (pad "8" thru_hole circle (at 35 0) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask"))
   (pad "8" thru_hole circle (at 35 8.2) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask"))
   (model "${KIPRJMOD}/BenchScan_Connectors.3dshapes/1190370.stp"
-    (offset (xyz -2.83 11.34 0))
+    (offset (xyz -2.83 -11.35 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0)))
+    (rotate (xyz -0 -0 -0))
+  )
 )
