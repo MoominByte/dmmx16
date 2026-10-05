@@ -1900,7 +1900,7 @@
 	(footprint "Fuse_1812_4532Metric"
 		(layer "F.Cu")
 		(uuid "0fc4c6dd-74b5-4838-90bd-c217b5a8e414")
-		(at 142.85 54.5)
+		(at 131 54.5)
 		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf)")
 		(tags "fuse")
 		(property "Reference" "F6"
@@ -4588,11 +4588,11 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "2ee3a0dc-4424-46cd-90b5-724cc2a737dc")
-		(at 143 40 180)
-		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
-		(tags "Pomona 73099 banana safety jack right angle")
+		(at 153 63.3 90)
+		(descr "Pomona 73099-0 right-angle 4 mm safety jack; corrected manufacturer footprint; five common plated mounting/contact holes")
+		(tags "Pomona 73099-0 banana safety jack right angle")
 		(property "Reference" "J6"
-			(at 0 -4.5 180)
+			(at 14.8 5.08 90)
 			(layer "F.SilkS")
 			(uuid "c1f4ab46-122d-4b68-9ec0-f04d2ac61934")
 			(effects
@@ -4603,7 +4603,7 @@
 			)
 		)
 		(property "Value" "POMONA 73099 RED"
-			(at 0 10 180)
+			(at 14.8 5.08 90)
 			(layer "F.Fab")
 			(uuid "526d4ae5-be42-4be9-8613-c3c5e030682d")
 			(effects
@@ -4637,117 +4637,30 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "28c67267-bb0d-4494-ab72-1b1dbd5a7672")
-		)
-		(fp_rect
-			(start -6.25 -3.45)
-			(end 6.25 8.55)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "742149fb-cf1e-41b5-8d9f-ef45fecc913a")
-		)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "0354b58f-91ec-4615-9ad1-54bcef492ef5")
-		)
-		(fp_text user "BOARD EDGE / JACK FACE"
-			(at 0 7.2 180)
-			(layer "F.SilkS")
-			(uuid "4a15f31a-74ca-45a0-9a31-a94ab7996bc6")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.2 180)
-			(layer "F.Fab")
-			(uuid "5507e751-82f8-41e5-8cd2-786bd30634e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "29121226-efd9-4fdf-9744-8f8de7b7a356")
-		)
-		(pad "1" thru_hole rect
-			(at -5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "INPUT_HI")
-			(uuid "efe67ac4-fcb5-4fc8-88ce-6108b2d8a94d")
-		)
-		(pad "1" thru_hole circle
-			(at -5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "INPUT_HI")
-			(uuid "bd30bfe2-09ab-4401-864c-3f75ac20a35f")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "INPUT_HI")
-			(uuid "339e8186-f40f-4cbc-aff4-92bf84ffc98e")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "INPUT_HI")
-			(uuid "1029ebb9-d71d-4139-9399-de478e7cf64f")
-		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BenchScan_Custom.3dshapes/Pomona_73099_red_envelope.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+
+
+
+
+
+		(fp_rect (start -1.7 -0.92) (end 31.3 11.08) (stroke (width 0.2) (type default)) (fill none) (layer "F.Fab") (uuid "54236a0e-9e96-4c53-bdfa-d913eb9181ef"))
+		(fp_rect (start -2.7 -1.975) (end 32.3 12.135) (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (uuid "86afc123-17a1-44a0-b5e4-aa317b3961e3"))
+		(fp_line (start -1.2 -0.92) (end -1.7 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "19951ca1-8cf6-4057-ab33-016407cfbfb5"))
+		(fp_line (start -1.7 -0.92) (end -1.7 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "ab3d14a9-0da7-4b3d-bebb-cf0c78dfd1bb"))
+		(fp_line (start -1.7 11.08) (end -1.2 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "831c5040-6687-4ad1-a935-124e5c0c493e"))
+		(fp_line (start 1.3 -0.92) (end 8.8 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "4314b1e3-a86b-42ca-b246-5f166f887388"))
+		(fp_line (start 1.3 11.08) (end 8.8 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "ed1614ec-de90-4703-a5f2-35ebee38c2c9"))
+		(fp_line (start 11.3 -0.92) (end 31.3 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "e14c088f-1990-4509-8448-e11b41944136"))
+		(fp_line (start 31.3 -0.92) (end 31.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "0972a8dd-5043-453b-ab45-a91206669f08"))
+		(fp_line (start 31.3 11.08) (end 11.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "9011ef9f-7868-493f-b4f8-07c8dc169f84"))
+		(fp_text user "${REFERENCE}" (at 14.8 5.08 90) (layer "F.Fab") (effects (font (size 1.27 1.27) (thickness 0.254))) (uuid "5463288a-6965-4881-8760-df6039ab2447"))
+		(pad "1" thru_hole rect (at 0 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (net "INPUT_HI") (uuid "87fe6210-548e-44a4-8ac8-80451c74d6d7"))
+		(pad "2" thru_hole circle (at 0 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "870507aa-4ca9-4550-8093-e573025e8445"))
+		(pad "3" thru_hole circle (at 10.16 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "9f91182c-421c-4f61-8a2f-b0dd6df8783c"))
+		(pad "4" thru_hole circle (at 10.16 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "248da797-b863-46b1-8f36-40c2b2c85f7d"))
+		(pad "5" thru_hole circle (at 3.8 5.08 90) (size 3.3 3.3) (drill 2.2) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "65cbf4f5-67e9-46df-b98f-e5ed2f660435"))
+		(model "${KIPRJMOD}/73099-0.stp" (offset (xyz 3.81 -5.08 3.4)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
+)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "311a9dea-003b-4745-9473-315edaa23813")
@@ -6858,7 +6771,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "54192b0c-ec7c-4b05-ad5e-a6ecd579caf7")
-		(at 241.85 53)
+		(at 243 69.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -7778,7 +7691,7 @@
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "5a72f1e3-5459-48f8-a786-656677271be5")
-		(at 154.35 63)
+		(at 147 63)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q19"
@@ -8144,7 +8057,7 @@
 	(footprint "C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5ab0b668-844f-4278-aeac-0a588b8b0b23")
-		(at 173.35 65)
+		(at 143 67)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -10899,11 +10812,11 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "7b0b9a4d-025a-4b9c-989a-a8fcbcec6f9f")
-		(at 228 40 180)
-		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
-		(tags "Pomona 73099 banana safety jack right angle")
+		(at 238 63.3 90)
+		(descr "Pomona 73099-0 right-angle 4 mm safety jack; corrected manufacturer footprint; five common plated mounting/contact holes")
+		(tags "Pomona 73099-0 banana safety jack right angle")
 		(property "Reference" "J12"
-			(at 0 -4.5 180)
+			(at 14.8 5.08 90)
 			(layer "F.SilkS")
 			(uuid "d649966b-5758-4608-b757-cb4c5ff21e8d")
 			(effects
@@ -10914,7 +10827,7 @@
 			)
 		)
 		(property "Value" "POMONA 73099 BLACK"
-			(at 0 10 180)
+			(at 14.8 5.08 90)
 			(layer "F.Fab")
 			(uuid "33375f8d-9550-4f24-8e94-04f63cd20a65")
 			(effects
@@ -10948,117 +10861,30 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "341f8531-0e0e-462b-be6e-5c9e023a7fba")
-		)
-		(fp_rect
-			(start -6.25 -3.45)
-			(end 6.25 8.55)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c4cfda2f-1515-48a9-803d-3c89b168c2ad")
-		)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "7b51a276-6fb8-4260-80b4-34bfa60a5479")
-		)
-		(fp_text user "BOARD EDGE / JACK FACE"
-			(at 0 7.2 180)
-			(layer "F.SilkS")
-			(uuid "449de554-1b7e-4b19-8fa8-dbe2bdcafaed")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.2 180)
-			(layer "F.Fab")
-			(uuid "5fc8abe6-f903-479c-a8b2-611e64b1cd14")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "5825d0d9-354e-466e-976a-77328e21d314")
-		)
-		(pad "1" thru_hole rect
-			(at -5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_LO")
-			(uuid "4eaad882-1b30-4fb1-9a14-2455f6088e18")
-		)
-		(pad "1" thru_hole circle
-			(at -5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_LO")
-			(uuid "f98bf62f-cff7-4fe5-978a-6a549619842e")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_LO")
-			(uuid "2dd9506c-36fc-4cfc-9942-c76c91c54ce6")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_LO")
-			(uuid "419753b6-b590-4b5b-9a41-7dc4d551d3c9")
-		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BenchScan_Custom.3dshapes/Pomona_73099_black_envelope.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+
+
+
+
+
+		(fp_rect (start -1.7 -0.92) (end 31.3 11.08) (stroke (width 0.2) (type default)) (fill none) (layer "F.Fab") (uuid "7b8c2474-041f-41d6-a687-140bb2aaa113"))
+		(fp_rect (start -2.7 -1.975) (end 32.3 12.135) (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (uuid "011c4918-6f38-480b-81a9-29e566c9e7ba"))
+		(fp_line (start -1.2 -0.92) (end -1.7 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "a8748ee6-6d47-491b-afdf-54d6539e2260"))
+		(fp_line (start -1.7 -0.92) (end -1.7 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "f135b615-061e-4318-9c7b-1350039b2a91"))
+		(fp_line (start -1.7 11.08) (end -1.2 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "b6078501-ff4d-4357-9734-9576cbf080e2"))
+		(fp_line (start 1.3 -0.92) (end 8.8 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "5383db6d-967e-4023-909c-7a65aa021706"))
+		(fp_line (start 1.3 11.08) (end 8.8 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "caa2f3ce-50cf-4ab6-bbc2-8a1f362af428"))
+		(fp_line (start 11.3 -0.92) (end 31.3 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "8e108c90-0c8b-4f8d-8afa-5ecce333788f"))
+		(fp_line (start 31.3 -0.92) (end 31.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "930961d7-98e2-4ba9-8b2f-0e60a9cb5db1"))
+		(fp_line (start 31.3 11.08) (end 11.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "71a44554-3133-4d00-844d-8c71008ac331"))
+		(fp_text user "${REFERENCE}" (at 14.8 5.08 90) (layer "F.Fab") (effects (font (size 1.27 1.27) (thickness 0.254))) (uuid "e7553eaf-c027-45be-b25a-8fac9d5efb3e"))
+		(pad "1" thru_hole rect (at 0 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (net "CURRENT_LO") (uuid "2dca57d0-2c49-4661-9375-d5fffc951ad7"))
+		(pad "2" thru_hole circle (at 0 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "b4098ef7-f942-40ae-97bc-0fc665c6236f"))
+		(pad "3" thru_hole circle (at 10.16 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "42f2f12a-b7f5-4e48-8a46-708d5cf71a00"))
+		(pad "4" thru_hole circle (at 10.16 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "50256183-989d-4788-ab3e-8a979b0ba13e"))
+		(pad "5" thru_hole circle (at 3.8 5.08 90) (size 3.3 3.3) (drill 2.2) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "bbb14540-05e6-4db1-8abe-010d0eb00284"))
+		(model "${KIPRJMOD}/73099-0.stp" (offset (xyz 3.81 -5.08 3.4)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
+)
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7b5c2cca-3c36-40de-8e01-1276d3ca301b")
@@ -11614,11 +11440,11 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "7f7d19c2-27d0-4ffe-83ad-3a4c973763d7")
-		(at 194 40 180)
-		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
-		(tags "Pomona 73099 banana safety jack right angle")
+		(at 204 63.3 90)
+		(descr "Pomona 73099-0 right-angle 4 mm safety jack; corrected manufacturer footprint; five common plated mounting/contact holes")
+		(tags "Pomona 73099-0 banana safety jack right angle")
 		(property "Reference" "J10"
-			(at 0 -4.5 180)
+			(at 14.8 5.08 90)
 			(layer "F.SilkS")
 			(uuid "d802e43e-9730-41a3-a78e-fc7f373c6bb7")
 			(effects
@@ -11629,7 +11455,7 @@
 			)
 		)
 		(property "Value" "POMONA 73099 BLACK"
-			(at 0 10 180)
+			(at 14.8 5.08 90)
 			(layer "F.Fab")
 			(uuid "26073efe-5e73-4e66-b2a4-c317bf0eec9a")
 			(effects
@@ -11663,117 +11489,30 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "02b69181-7558-47e2-b2c7-b17e587a2621")
-		)
-		(fp_rect
-			(start -6.25 -3.45)
-			(end 6.25 8.55)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "67c788a1-305b-4154-bcb3-c69d024c083a")
-		)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "63a29316-b71c-4d95-94c8-cb67701437d2")
-		)
-		(fp_text user "BOARD EDGE / JACK FACE"
-			(at 0 7.2 180)
-			(layer "F.SilkS")
-			(uuid "cd5e95d2-2a54-452c-99db-d06de89c7095")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.2 180)
-			(layer "F.Fab")
-			(uuid "f0592d87-4bbf-450f-9b2f-8a6ed50f109d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "010b2a89-7f7d-4447-a1d6-acfa4b92bf93")
-		)
-		(pad "1" thru_hole rect
-			(at -5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_LO")
-			(uuid "4392f800-7706-46ea-8d83-d0158fa1f72d")
-		)
-		(pad "1" thru_hole circle
-			(at -5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_LO")
-			(uuid "74d2ef5a-b106-42e8-9779-9fdfbf8d0aae")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_LO")
-			(uuid "65977c06-db71-4ed8-8305-62527c3a589b")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_LO")
-			(uuid "8a2db806-8931-430f-ae13-e9c036f034a3")
-		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BenchScan_Custom.3dshapes/Pomona_73099_black_envelope.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+
+
+
+
+
+		(fp_rect (start -1.7 -0.92) (end 31.3 11.08) (stroke (width 0.2) (type default)) (fill none) (layer "F.Fab") (uuid "3cdc76a2-da5e-4cb6-821c-8a0182bed987"))
+		(fp_rect (start -2.7 -1.975) (end 32.3 12.135) (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (uuid "9c88345a-9306-475f-ae90-43f71b9127ec"))
+		(fp_line (start -1.2 -0.92) (end -1.7 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "411a436f-b4c2-404f-963c-e53184c17942"))
+		(fp_line (start -1.7 -0.92) (end -1.7 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "5f7cdc51-b7e6-4970-8315-4e6fdb521001"))
+		(fp_line (start -1.7 11.08) (end -1.2 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "f6b2b445-216e-41bc-acc2-b35fcece4382"))
+		(fp_line (start 1.3 -0.92) (end 8.8 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "4cf9ceee-457a-47cf-9bcb-95f9713ed360"))
+		(fp_line (start 1.3 11.08) (end 8.8 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "ef8a49a1-ac72-44ad-8dc7-7d8762a76b33"))
+		(fp_line (start 11.3 -0.92) (end 31.3 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "67c53b22-a793-4088-afb5-4be958965d89"))
+		(fp_line (start 31.3 -0.92) (end 31.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "2deaddd5-3c55-4507-88f2-a04fb60ab9b0"))
+		(fp_line (start 31.3 11.08) (end 11.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "74fd456c-34a5-490d-babe-b175683b6934"))
+		(fp_text user "${REFERENCE}" (at 14.8 5.08 90) (layer "F.Fab") (effects (font (size 1.27 1.27) (thickness 0.254))) (uuid "af54b4c7-e1d8-4eee-b9fe-a84d246b0e10"))
+		(pad "1" thru_hole rect (at 0 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (net "SENSE_LO") (uuid "f930a6ab-2344-4744-b2d3-01df96f431d9"))
+		(pad "2" thru_hole circle (at 0 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "35449a7a-cf7b-41ea-b4a8-2aac98221d58"))
+		(pad "3" thru_hole circle (at 10.16 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "eb91821c-aca1-46c5-a5a6-48f2729bdfdf"))
+		(pad "4" thru_hole circle (at 10.16 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "1ad64578-44f0-420d-8fa1-2fcdc0e2a994"))
+		(pad "5" thru_hole circle (at 3.8 5.08 90) (size 3.3 3.3) (drill 2.2) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "1ee652a0-c297-4200-b973-c3fff09b80e0"))
+		(model "${KIPRJMOD}/73099-0.stp" (offset (xyz 3.81 -5.08 3.4)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
+)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8132a6a8-d715-4b62-9edc-589d8f2e6da1")
@@ -15893,11 +15632,11 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "b327fc30-a3d1-418c-a719-4272e1e94bcd")
-		(at 160 40 180)
-		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
-		(tags "Pomona 73099 banana safety jack right angle")
+		(at 170 63.3 90)
+		(descr "Pomona 73099-0 right-angle 4 mm safety jack; corrected manufacturer footprint; five common plated mounting/contact holes")
+		(tags "Pomona 73099-0 banana safety jack right angle")
 		(property "Reference" "J8"
-			(at 0 -4.5 180)
+			(at 14.8 5.08 90)
 			(layer "F.SilkS")
 			(uuid "7c1c1bfe-7ff7-4ff6-9073-1416126227ac")
 			(effects
@@ -15908,7 +15647,7 @@
 			)
 		)
 		(property "Value" "POMONA 73099 BLACK"
-			(at 0 10 180)
+			(at 14.8 5.08 90)
 			(layer "F.Fab")
 			(uuid "94f553a5-069f-4366-99de-b3dd96a1b35f")
 			(effects
@@ -15942,117 +15681,30 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "068460db-6955-4ffb-bd77-5803b198df8c")
-		)
-		(fp_rect
-			(start -6.25 -3.45)
-			(end 6.25 8.55)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "71c8e412-4cc5-40a7-86c8-95c1528fb8cd")
-		)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "cfb3d8f4-2662-454b-a62b-ed61fdeaaa95")
-		)
-		(fp_text user "BOARD EDGE / JACK FACE"
-			(at 0 7.2 180)
-			(layer "F.SilkS")
-			(uuid "1f983304-95f9-4152-b035-16e35d142c7e")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.2 180)
-			(layer "F.Fab")
-			(uuid "eca30f2d-eaed-4c54-9613-fcd9dcfe8bc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "20e604ec-787b-486e-8136-151747b527c2")
-		)
-		(pad "1" thru_hole rect
-			(at -5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "COM")
-			(uuid "f76270d2-5840-4892-868e-515e0198a475")
-		)
-		(pad "1" thru_hole circle
-			(at -5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "COM")
-			(uuid "98f204f0-4e0e-4b82-8e0f-392746d17821")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "COM")
-			(uuid "f56fe195-c074-4c88-bf2d-5c86580f8920")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "COM")
-			(uuid "ad963e56-52aa-486b-99b7-2c08203aa3e0")
-		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BenchScan_Custom.3dshapes/Pomona_73099_black_envelope.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+
+
+
+
+
+		(fp_rect (start -1.7 -0.92) (end 31.3 11.08) (stroke (width 0.2) (type default)) (fill none) (layer "F.Fab") (uuid "9646ce1c-5135-473b-88a8-94293ee8cbec"))
+		(fp_rect (start -2.7 -1.975) (end 32.3 12.135) (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (uuid "49e43033-7d7a-4ede-bff6-dc380fe49e4c"))
+		(fp_line (start -1.2 -0.92) (end -1.7 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "33c182a0-c5e2-4155-816e-ec55844d36ce"))
+		(fp_line (start -1.7 -0.92) (end -1.7 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "45f6575e-945e-4434-b381-50bd5ef65eb2"))
+		(fp_line (start -1.7 11.08) (end -1.2 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "4f0ed27e-f90c-4844-83cb-d4aa8b669527"))
+		(fp_line (start 1.3 -0.92) (end 8.8 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "5c12f207-2d56-4964-9d32-8ef7de9d9011"))
+		(fp_line (start 1.3 11.08) (end 8.8 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "ce927d0a-b953-4086-8039-ef266bb80195"))
+		(fp_line (start 11.3 -0.92) (end 31.3 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "5d1ac928-c2b9-4e4a-9941-26c5c645fa80"))
+		(fp_line (start 31.3 -0.92) (end 31.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "a23f5f07-702e-4e26-9fb0-5c753f1b46bc"))
+		(fp_line (start 31.3 11.08) (end 11.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "be7038e3-c4db-4daf-b890-ce4142181cf4"))
+		(fp_text user "${REFERENCE}" (at 14.8 5.08 90) (layer "F.Fab") (effects (font (size 1.27 1.27) (thickness 0.254))) (uuid "67d736e2-c93a-46c6-8916-8175aca84be4"))
+		(pad "1" thru_hole rect (at 0 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (net "COM") (uuid "0f505db2-4dad-4945-a0d5-487b9f61b634"))
+		(pad "2" thru_hole circle (at 0 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "e12efb91-f85a-4a74-b849-2be800074930"))
+		(pad "3" thru_hole circle (at 10.16 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "445318d3-5d4c-4a18-a0ad-591da377a5e7"))
+		(pad "4" thru_hole circle (at 10.16 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "38f08025-393a-4693-ad70-6b9743f6bdf5"))
+		(pad "5" thru_hole circle (at 3.8 5.08 90) (size 3.3 3.3) (drill 2.2) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "5fcd3b7e-f0b4-4571-a85f-e2b19928470d"))
+		(model "${KIPRJMOD}/73099-0.stp" (offset (xyz 3.81 -5.08 3.4)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
+)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "b535edca-8630-4b9a-bafd-e39374ac6b60")
@@ -16422,7 +16074,7 @@
 	(footprint "R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b5787f39-1560-4ebe-88ca-7f2223fd9a4a")
-		(at 174.85 59)
+		(at 144 59)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R50"
@@ -17244,11 +16896,11 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "ba4f20cd-23ee-4ee0-875e-d2ca7879a858")
-		(at 211 40 180)
-		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
-		(tags "Pomona 73099 banana safety jack right angle")
+		(at 221 63.3 90)
+		(descr "Pomona 73099-0 right-angle 4 mm safety jack; corrected manufacturer footprint; five common plated mounting/contact holes")
+		(tags "Pomona 73099-0 banana safety jack right angle")
 		(property "Reference" "J11"
-			(at 0 -4.5 180)
+			(at 14.8 5.08 90)
 			(layer "F.SilkS")
 			(uuid "50619cb7-12d6-4832-af9b-04476a78e393")
 			(effects
@@ -17259,7 +16911,7 @@
 			)
 		)
 		(property "Value" "POMONA 73099 RED"
-			(at 0 10 180)
+			(at 14.8 5.08 90)
 			(layer "F.Fab")
 			(uuid "1f8bd332-113f-4538-88a5-1c3db864cb53")
 			(effects
@@ -17293,121 +16945,34 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "58182164-a009-438d-80cd-c74c21f79f16")
-		)
-		(fp_rect
-			(start -6.25 -3.45)
-			(end 6.25 8.55)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "1fb252a9-d2bc-45d4-b67b-589882fedeba")
-		)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "bea966d6-e290-4ec2-8a8c-463ff386b304")
-		)
-		(fp_text user "BOARD EDGE / JACK FACE"
-			(at 0 7.2 180)
-			(layer "F.SilkS")
-			(uuid "1a7fa55c-1e9b-427a-967c-3dcef2e6783e")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.2 180)
-			(layer "F.Fab")
-			(uuid "83d297d5-af37-4c1a-af93-064eff5ca311")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "76b56c68-270f-416e-8495-51800e93a89f")
-		)
-		(pad "1" thru_hole rect
-			(at -5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_HI")
-			(uuid "ce67f1e2-3b1b-4336-8ca1-eff15971f0fa")
-		)
-		(pad "1" thru_hole circle
-			(at -5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_HI")
-			(uuid "b7e7434c-7deb-4b2b-9684-9fc7adde45d6")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_HI")
-			(uuid "f244839d-f372-44a5-9361-fcc3dca3ab16")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "CURRENT_HI")
-			(uuid "68337e09-9cec-46f1-b4bb-e0a4b2ce6a79")
-		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BenchScan_Custom.3dshapes/Pomona_73099_red_envelope.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+
+
+
+
+
+		(fp_rect (start -1.7 -0.92) (end 31.3 11.08) (stroke (width 0.2) (type default)) (fill none) (layer "F.Fab") (uuid "95103025-5a16-4707-b919-9982b18e560d"))
+		(fp_rect (start -2.7 -1.975) (end 32.3 12.135) (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (uuid "3bee2315-b7e3-446e-92a9-860fa15977b6"))
+		(fp_line (start -1.2 -0.92) (end -1.7 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "f6001bc9-7c26-4144-b3e7-5d39a1d9b98c"))
+		(fp_line (start -1.7 -0.92) (end -1.7 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "dfbb2332-7d7a-4c98-85fb-7f81dd55cbb0"))
+		(fp_line (start -1.7 11.08) (end -1.2 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "6eb43437-c098-4999-bbae-883fc5a40fe1"))
+		(fp_line (start 1.3 -0.92) (end 8.8 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "45d0e36d-bbf7-4335-a443-2b4a4ce1bb96"))
+		(fp_line (start 1.3 11.08) (end 8.8 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "3f273810-ada0-47d9-8b45-becaaa13a98e"))
+		(fp_line (start 11.3 -0.92) (end 31.3 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "cd78e6cc-8f2f-4323-82d9-892b26ad0519"))
+		(fp_line (start 31.3 -0.92) (end 31.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "0921704f-7cf5-43bc-8b5a-229c2fe97500"))
+		(fp_line (start 31.3 11.08) (end 11.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "f2583a22-189e-439b-a07d-7ba14de7c694"))
+		(fp_text user "${REFERENCE}" (at 14.8 5.08 90) (layer "F.Fab") (effects (font (size 1.27 1.27) (thickness 0.254))) (uuid "8065ab2a-1519-45ab-8dd0-ddae8b47b1c7"))
+		(pad "1" thru_hole rect (at 0 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (net "CURRENT_HI") (uuid "3bdde045-f775-4d7a-ae88-df217ed58582"))
+		(pad "2" thru_hole circle (at 0 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "39cc8c9b-cb42-4e68-8ee7-35e279ef8197"))
+		(pad "3" thru_hole circle (at 10.16 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "277ace4b-1001-497c-b563-146d1b42bf0c"))
+		(pad "4" thru_hole circle (at 10.16 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "214b5c7c-d5d0-4bf0-a649-17ffbc63b257"))
+		(pad "5" thru_hole circle (at 3.8 5.08 90) (size 3.3 3.3) (drill 2.2) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "a86f56ca-c828-4b1a-8772-58c1761f32b9"))
+		(model "${KIPRJMOD}/73099-0.stp" (offset (xyz 3.81 -5.08 3.4)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
+)
 	(footprint "SOT-23"
 		(layer "F.Cu")
 		(uuid "bb49f367-7b97-459b-8800-7d8582e3f516")
-		(at 237.85 53)
+		(at 248 69.5)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q17"
@@ -20464,7 +20029,7 @@
 	(footprint "TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "dd3ed6e0-e5bc-4327-bb47-8a753ac0a113")
-		(at 178.85 65)
+		(at 137 64)
 		(descr "TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800")
 		(property "Reference" "U3"
@@ -20844,11 +20409,11 @@
 	(footprint "Pomona_73099_RightAngle_SafetyJack"
 		(layer "F.Cu")
 		(uuid "dd5ffd9d-8b21-4bd2-9d34-cf151d3597f5")
-		(at 177 40 180)
-		(descr "Pomona 73099 right-angle 4 mm safety jack; four common electrical pins and central mechanical hole")
-		(tags "Pomona 73099 banana safety jack right angle")
+		(at 187 63.3 90)
+		(descr "Pomona 73099-0 right-angle 4 mm safety jack; corrected manufacturer footprint; five common plated mounting/contact holes")
+		(tags "Pomona 73099-0 banana safety jack right angle")
 		(property "Reference" "J9"
-			(at 0 -4.5 180)
+			(at 14.8 5.08 90)
 			(layer "F.SilkS")
 			(uuid "0b962146-bbff-403c-aa27-1410c690d751")
 			(effects
@@ -20859,7 +20424,7 @@
 			)
 		)
 		(property "Value" "POMONA 73099 RED"
-			(at 0 10 180)
+			(at 14.8 5.08 90)
 			(layer "F.Fab")
 			(uuid "38b7085d-4f65-4ae6-9364-9b99837b38ae")
 			(effects
@@ -20893,117 +20458,30 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "489e081b-0f02-498b-b540-4cdc0e320557")
-		)
-		(fp_rect
-			(start -6.25 -3.45)
-			(end 6.25 8.55)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "4e3c7e95-b6af-4742-8413-f1002d911b8e")
-		)
-		(fp_rect
-			(start -6 -3.2)
-			(end 6 8.3)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "9891a88f-e678-4db0-acff-10978c0a19a3")
-		)
-		(fp_text user "BOARD EDGE / JACK FACE"
-			(at 0 7.2 180)
-			(layer "F.SilkS")
-			(uuid "db8a05dc-3b01-4da2-a6b5-9131eb6422f7")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.2 180)
-			(layer "F.Fab")
-			(uuid "b0fa4930-0c20-4fcc-8067-08a29f471715")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "2ffec8db-9022-4a12-ba11-370bbc7a40ff")
-		)
-		(pad "1" thru_hole rect
-			(at -5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_HI")
-			(uuid "8566b24f-cf6e-4664-b60c-0a4aef77a31f")
-		)
-		(pad "1" thru_hole circle
-			(at -5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_HI")
-			(uuid "aa5f6de0-8b08-40d9-8731-c34f51334071")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 -1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_HI")
-			(uuid "4eb6d5cf-991f-4519-bf59-18b7da0cddc4")
-		)
-		(pad "1" thru_hole circle
-			(at 5.08 1.9 180)
-			(size 2.2 2.2)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "SENSE_HI")
-			(uuid "7e6301ae-7533-4695-a27b-8c09b68e28e1")
-		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BenchScan_Custom.3dshapes/Pomona_73099_red_envelope.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+
+
+
+
+
+		(fp_rect (start -1.7 -0.92) (end 31.3 11.08) (stroke (width 0.2) (type default)) (fill none) (layer "F.Fab") (uuid "019d76f3-a0ee-41d0-9f0c-aa5a61e84b6e"))
+		(fp_rect (start -2.7 -1.975) (end 32.3 12.135) (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (uuid "915fb92c-0884-4ed8-8475-389227a9a48a"))
+		(fp_line (start -1.2 -0.92) (end -1.7 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "9bf37234-31dd-46a8-85e5-62b8359225de"))
+		(fp_line (start -1.7 -0.92) (end -1.7 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "58d772d3-650a-4073-9e26-817e4d56448f"))
+		(fp_line (start -1.7 11.08) (end -1.2 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "af7d5993-f4c3-427a-808e-7510ede6e4a6"))
+		(fp_line (start 1.3 -0.92) (end 8.8 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "7eb3eb2a-8b32-4070-ba23-8b68c10a001a"))
+		(fp_line (start 1.3 11.08) (end 8.8 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "1d5f645b-c360-4413-af1a-9172ee5994d7"))
+		(fp_line (start 11.3 -0.92) (end 31.3 -0.92) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "90b8fb3c-5e4f-4d97-8ea0-bd65da5bc52f"))
+		(fp_line (start 31.3 -0.92) (end 31.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "c91a36a6-393a-4639-bc6f-39329ae423aa"))
+		(fp_line (start 31.3 11.08) (end 11.3 11.08) (stroke (width 0.1) (type default)) (layer "F.SilkS") (uuid "924170ea-f56f-4ca0-8679-f7ced8c8a8c8"))
+		(fp_text user "${REFERENCE}" (at 14.8 5.08 90) (layer "F.Fab") (effects (font (size 1.27 1.27) (thickness 0.254))) (uuid "72404bbf-2358-4738-8e40-cafa1872c127"))
+		(pad "1" thru_hole rect (at 0 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (net "SENSE_HI") (uuid "add321be-3adc-4946-85e2-b345ebc12374"))
+		(pad "2" thru_hole circle (at 0 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "2c73d122-fb2a-41fc-ac2b-b143abef4b93"))
+		(pad "3" thru_hole circle (at 10.16 10.16 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "4f56074f-86c6-4b28-b584-30c154518ce4"))
+		(pad "4" thru_hole circle (at 10.16 0 90) (size 1.95 1.95) (drill 1.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "99a70ad6-259f-4dff-a0ee-f9a546b381ca"))
+		(pad "5" thru_hole circle (at 3.8 5.08 90) (size 3.3 3.3) (drill 2.2) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "f5932289-c9c3-4ffd-84d9-32b80ce58d38"))
+		(model "${KIPRJMOD}/73099-0.stp" (offset (xyz 3.81 -5.08 3.4)) (scale (xyz 1 1 1)) (rotate (xyz -90 0 0)))
+)
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "deb548f7-528d-4313-a36a-fc3e91f9d6ef")
@@ -22043,7 +21521,7 @@
 	(footprint "Relay_KEMET_UD2_NE"
 		(layer "F.Cu")
 		(uuid "e9653faa-82fc-4eb9-816b-037a9620daae")
-		(at 237.55 58.63)
+		(at 248 75)
 		(descr "KEMET/YAGEO UD2 NU/NE miniature signal relay, SMD, 8 pads; manufacturer recommended land pattern")
 		(tags "KEMET YAGEO UD2-5NE relay DPDT SMD")
 		(property "Reference" "K17"
@@ -22511,7 +21989,7 @@
 	(footprint "R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f2441fa7-4257-4abc-a112-5ebda427a2a6")
-		(at 245.85 53)
+		(at 240 69.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R34"
@@ -22921,7 +22399,7 @@
 	(footprint "D_SOD-123"
 		(layer "F.Cu")
 		(uuid "f3f625c1-54bf-41e4-b72f-453b61f1b1b9")
-		(at 240.85 48)
+		(at 254 69.5)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D17"
