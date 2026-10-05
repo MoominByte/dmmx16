@@ -16,4 +16,9 @@
   (pad "1" thru_hole oval (at 13.6 0) (size 1.8 4.5) (drill oval 0.8 3.5) (layers "*.Cu" "*.Mask"))
   (pad "2" thru_hole oval (at 10.8 4.7 90) (size 1.8 3.5) (drill oval 0.8 2.5) (layers "*.Cu" "*.Mask"))
   (pad "" thru_hole oval (at 7.7 0) (size 1.8 3.5) (drill oval 0.8 2.5) (layers "*.Cu" "*.Mask"))
+  (model "${KIPRJMOD}/BenchScan_Custom.3dshapes/Tensility_54_00129_envelope.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -434,4 +434,9 @@
 		(uuid "3780a4ef-348c-4241-b04b-2cb4f7127fa2")
 	)
 	(embedded_fonts no)
+  (model "${KIPRJMOD}/Seeed_XIAO.3dshapes/XIAO_ESP32C6_envelope.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

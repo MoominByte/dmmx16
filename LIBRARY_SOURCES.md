@@ -13,3 +13,9 @@ The project keeps the exact footprints used by the design in local KiCad librari
 | Littelfuse 0451.500MRL | `BenchScan_Custom.pretty` | [Littelfuse 451/453 datasheet](https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1) | Project footprint follows the recommended NANO2 2410 pad layout. |
 
 Imported vendor files should not be geometrically modified without checking the current manufacturer drawing and recording the change here.
+
+## 3D model status
+
+Standard SMD packages use the official KiCad 10 STEP models. Manufacturer STEP models are retained for Phoenix 1190370 and Würth 691137710006.
+
+Project-local files whose names end in `_envelope.wrl` are mechanical-envelope visualization models derived from the documented component dimensions and footprint geometry. They are intentionally simplified and must not be treated as manufacturer cosmetic CAD. Replace them with verified manufacturer STEP files when unrestricted models become available.
